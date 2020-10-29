@@ -1,5 +1,5 @@
 import React from "react";
-import "../App2.css";
+import "../css/App2.css";
 
 function Body() {
   return (

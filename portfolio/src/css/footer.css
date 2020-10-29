@@ -1,0 +1,77 @@
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.footer > .contact {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.footer > .links{
+    grid-area: t;
+    display: flex;
+    margin-bottom: 20px;;
+    justify-content: center;
+}
+.footer > .links > a > div{
+    margin: 0 25px 20px 20px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50px;
+    background: gray;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    transition: all 800ms ease-in-out;
+
+}
+.footer > .links > a > div.fa-linkedin{
+    background: #0e76a8;
+}
+.footer > .links > a > div.fa-linkedin:hover {
+    color: #0e76a8;
+    background: #fff;
+    border: 1px solid #0e76a8;
+    box-shadow: 0 0 15px 6px #0e76a8;
+    transform: scale(1.2);
+}
+.footer > .links > a > div.fa-twitter{
+    background: #00acee; 
+}
+.footer > .links > a > div.fa-twitter:hover {
+    color: #00acee;
+    background: #fff;
+    border: 1px solid #00acee;
+    box-shadow: 0 0 15px 6px #00acee;
+    transform: scale(1.2);
+}
+.footer > .links > a > div.fa-github{
+    background: #211F1F;
+    border: 1px solid gray; 
+}
+.footer > .links > a > div.fa-github:hover {
+    color: #211F1F;
+    background: #fff;
+    border: 1px solid #211F1F;
+    box-shadow: 0 0 15px 6px gray;
+    transform: scale(1.2);
+}
+.footer > .links > a > div.fa-user-circle{
+    background: orange; 
+}
+.footer > .links > a > div.fa-user-circle:hover {
+    color: orange;
+    background: #fff;
+    border: 1px solid orange;
+    box-shadow: 0 0 15px 6px orange;
+    transform: scale(1.2);
+}
+.footer > .links > a > div.fa-tasks{
+    background: limegreen; 
+}
+.footer > .links > a > div.fa-tasks:hover {
+    color: limegreen;
+    background: #fff;
+    border: 1px solid limegreen;
+    box-shadow: 0 0 15px 6px limegreen;
+    transform: scale(1.2);
+}

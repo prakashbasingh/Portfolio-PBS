@@ -1,13 +1,16 @@
 import React from "react";
-import "../App2.css";
+import "../css/App2.css";
+import "../css/footer.css";
 
 function Footer() {
   return (
     <div className="footer">
-      To Contact Me:
-      <p>Email: prakashbahadursingh2@gmail.com</p>
-      <p>Phone No: 916-281-1576</p>
-      <div>
+      <div className="contact">
+        <h2>To Contact Me:</h2>
+        <p>Email: prakashbahadursingh2@gmail.com</p>
+        <p>Phone No: 916-281-1576</p>
+      </div>
+      <div className="links">
         <a className="box" id="profile" href="">
           <div class="fa fa-user-circle"></div>
         </a>

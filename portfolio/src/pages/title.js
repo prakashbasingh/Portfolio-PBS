@@ -1,15 +1,11 @@
 import React from "react";
-import "../App2.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import Profileicon from "../images/profileicon.png";
-// import projecticon from "../images/projecticon.png";
-// import githubicon from "../images/githubicon.png";
-// import linkedinicon from "../images/linkedinicon.png";
-// import twittericon from "../images/twittericon.png";
+// import "../css/App2.css";
+import "../css/title.css";
 
 function Title() {
   return (
     <div className="title">
+      <h2>Welcome to My Portfolio Page</h2>
       <a className="box" id="profile" href="">
         <div className="fa fa-user-circle"></div>
       </a>

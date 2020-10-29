@@ -1,4 +1,4 @@
-// import "./App2.css";
+// import "../css/App2.css";
 import MainPage from "./pages/mainPage.js";
 
 function App() {

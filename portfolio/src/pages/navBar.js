@@ -1,11 +1,12 @@
 import React from "react";
-import "../App2.css";
+import "../css/App2.css";
+import "../css/navBar.css";
 
 function NavBar() {
   return (
     <div className="nav">
       <h4>Please Select</h4>
-      <a className="box" id="profile" href="">
+      <a className="box" id="profile" href="" attr="Profile">
         <div class="fa fa-user-circle"></div>
       </a>
       <a
