@@ -1,0 +1,74 @@
+.body{
+    grid-area: b;
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    overflow-y: scroll;
+    border: 1px solid gray;
+}
+
+.eachBody{
+    border: 1px solid gray;
+    margin: 2%;
+    height: 25%;
+    width: 80%; 
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.eachBody2{
+    border: 1px solid gray;
+    margin: 4% 4% 4% 13%; 
+    height: 25%;
+    width: 80%; 
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.img{
+    border: 1px solid gray;
+    width: 40%;
+}
+
+.imgText{
+    border: 1px solid gray;
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+.bodyTwoSeven{
+    /* grid-area: b27; */
+    border: 1px solid gray;
+    margin: 4px;
+    height: 25%;
+    width: 40%;
+    padding: 5px;
+}
+.bodyFourSix{
+    grid-area: b46;
+    border: 1px solid gray;
+    margin: 4px;
+    height: 25%;
+    width: 40%;
+    padding: 5px;
+}
+.bodyFive{
+    grid-area: b5;
+    border: 1px solid gray;
+    margin: 4px;
+    height: 25%;
+    width: 40%;
+    padding: 5px;
+}
