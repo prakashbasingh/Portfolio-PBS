@@ -12,13 +12,19 @@
 .title {
     grid-area: t;
     border: 1px solid gray;
-    margin: 4px;
+    width: 100%;
+    margin: 0.5rem;
+    height: 6rem;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     /* position: fixed; */
 }
 .title > .links {
+    border: 1px solid gold;
     position: relative;
+    display: flex;
+    
     animation: 2s ease-out 0s 1 mymove;
     
 }
@@ -26,18 +32,40 @@
     0% {transform: translateX(-100%);}
     100% {transform: translateX(0);}
 }
-.title > .links > a > div{
+.title > .links > a {
+    height: 100px;
+    text-decoration: none;
+    border: 1px solid red;
+}
+.title > .links > a > .fa{
     margin: 20px;
-    width: 30px;
+    width: 40px;
+    height: 40px;
     padding: 5px;
     border-radius: 50px;
     background: gray;
     border: 1px solid black;
     text-align: center;
-    line-height: 30px;
+    line-height: 40px;
     color: #fff;
+    font-size: 2rem;
     transition: all 800ms ease-in-out;
 
+}
+.title > .links > .box > p{
+    background: black;
+     border: 1px solid #fff;
+    color: #fff;
+    width: 120px;
+    /* display: none; */
+    border-radius: 1rem;
+    padding: 5px 0;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+.title .links .box .fa:hover p{
+    display: box;
 }
 .title > .links > a > div.fa-linkedin{
     background: #0e76a8;

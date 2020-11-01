@@ -6,41 +6,79 @@
 .nav {
     grid-area: n;
     border: 1px solid gray;
-    padding: 5%;
-    display: flex;
-    flex-direction: column;
     width: 40%;
+    margin: 0.5rem;
+    /* background: rgba(122, 112, 92, 0.856); */
+    transition: 0.5s;
+    overflow: hidden;
+    transition: all 800ms ease-in-out;
+
 }
 .nav:hover {
-    width: 80%;
-    transition: all 500ms ease-in-out;
+    width: 90%;
+    transition: all 800ms ease-in-out;
 }
 
 .navLink{
     display:flex;
-}
-.iconTitle {
-    display: none;
-}
-.nav:hover .iconTitle{
-    border: 1px solid gray;
-    width: 60%;
-    display: box;
-    color: #fff;
-    text-decoration: none;
-    display:flex;
     align-items: center;
-    font-size: 1.3rem;;
+    height: 5rem;
+    text-decoration: none;
+}
+
+.nav ul {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav ul li {
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+.nav ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+}
+.nav ul li a .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+}
+.nav .links li .navLink .icon .fa {    
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid gray;
+    border-radius: 50%;
     transition: all 800ms ease-in-out;
 }
 
-
-.nav > .links {
-    display: flex;
-    flex-direction: column;
+.iconTitle {
+    display: none;
+    margin-left: 1rem;
 }
+.nav:hover .iconTitle{
+    border: 1px solid gray;
+    width: 10rem;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    display:flex; 
+    align-items: center;
+    font-size: 1.3rem;
+    transition: all 800ms ease-in-out;
+} 
 
-.nav > .links > a > div {
+
+/* .nav > .links > a > div {
     margin: 20px 10px;
     width: 30px;
     padding: 5px;
@@ -52,55 +90,55 @@
     color: #fff;
     transition: all 800ms ease-in-out;
     
-}
-.nav > .links > a > div.fa-user-circle{
+} */
+.nav .links li .navLink .icon .fa-user-circle{
     background: orange; 
+
 }
-.nav > .links > a > div.fa-user-circle:hover {
+.nav .links li .navLink .icon .fa-user-circle:hover {
     color: orange;
     background: #fff;
     border: 1px solid orange;
     box-shadow: 0 0 15px 6px orange;
+    /* transition-duration: 1s; */
     transform: scale(1.2);
 }
-.nav > .links > a > div.fa-tasks{
+.nav .links li .navLink .icon .fa-tasks{
     background: limegreen; 
 }
-.nav > .links > a > div.fa-tasks:hover {
+.nav .links li .navLink .icon .fa-tasks:hover {
     color: limegreen;
     background: #fff;
     border: 1px solid limegreen;
     box-shadow: 0 0 15px 6px limegreen;
     transform: scale(1.2);
 }
-/* .nav > .links > a {
-    background: red;
-} */
-.nav > .links > a > div.fa-linkedin{
+
+.nav .links li .navLink .icon .fa-linkedin{
     background: #0e76a8;
 }
-.nav > .links > a > div.fa-linkedin:hover {
+.nav .links li .navLink .icon .fa-linkedin:hover {
     color: #0e76a8;
     background: #fff;
     border: 1px solid #0e76a8;
     box-shadow: 0 0 15px 6px #0e76a8;
     transform: scale(1.2);
 }
-.nav > .links > a > div.fa-twitter{
+.nav .links li .navLink .icon .fa-twitter{
     background: #00acee; 
 }
-.nav > .links > a > div.fa-twitter:hover {
+.nav .links li .navLink .icon .fa-twitter:hover {
     color: #00acee;
     background: #fff;
     border: 1px solid #00acee;
     box-shadow: 0 0 15px 6px #00acee;
     transform: scale(1.2);
 }
-.nav > .links > a > div.fa-github{
+.nav .links li .navLink .icon .fa-github{
     background: #211F1F;
     border: 1px solid gray; 
 }
-.nav > .links > a > div.fa-github:hover {
+.nav .links li .navLink .icon .fa-github:hover {
     color: #211F1F;
     background: #fff;
     border: 1px solid #211F1F;

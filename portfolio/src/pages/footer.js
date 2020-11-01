@@ -13,6 +13,7 @@ function Footer() {
       <div className="links">
         <a className="box" id="profile" href="">
           <div class="fa fa-user-circle"></div>
+          <p className="ppp">Profile</p>
         </a>
         <a
           className="box"
@@ -20,9 +21,11 @@ function Footer() {
           href="https://prakashbasingh.github.io/portfolio-website/"
         >
           <div class="fa fa-tasks"></div>
+          <p className="ppp">Projects</p>
         </a>
         <a className="box" id="gitHub" href="https://github.com/prakashbasingh">
           <div class="fa fa-github"></div>
+          <p className="ppp">GitHub</p>
         </a>
         <a
           className="box"
@@ -30,9 +33,11 @@ function Footer() {
           href="https://www.linkedin.com/in/prakash-singh-457100177/"
         >
           <div class="fa fa-linkedin"></div>
+          <p className="ppp">Linkedin</p>
         </a>
         <a className="box" id="twitter" href="https://twitter.com/PraxBaS">
           <div class="fa fa-twitter"></div>
+          <p className="ppp">Twitter</p>
         </a>
       </div>
     </div>

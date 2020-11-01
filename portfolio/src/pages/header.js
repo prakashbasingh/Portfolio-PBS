@@ -1,12 +1,15 @@
 import React from "react";
 import "../css/App2.css";
 import "../css/header.css";
-import profilePic from "../images/profilePic.png";
 
 function Header() {
   return (
     <div className="header">
-      <image className="image" src={profilePic} alt="profile picture"></image>
+      <img
+        className="image"
+        src="portfolio/src/images/profilePic.png"
+        alt="profile picture"
+      ></img>
 
       <div className="intro">
         <h1>Hi,</h1>

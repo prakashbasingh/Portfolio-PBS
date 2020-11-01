@@ -16,37 +16,49 @@ function Body() {
         </div>
       </div>
       <div className="eachBody2">
-        <image className="img"> Image</image>
+        <image className="img" src="" alt="">
+          Image
+        </image>
         <div className="imgText">
           <p>Intro</p>
         </div>
       </div>
       <div className="eachBody">
-        <image className="img"> Image</image>
+        <image className="img" src="" alt="">
+          Image
+        </image>
         <div className="imgText">
           <p>Intro</p>
         </div>
       </div>
       <div className="eachBody2">
-        <image className="img"> Image</image>
+        <image className="img" src="" alt="">
+          Image
+        </image>
         <div className="imgText">
           <p>Intro</p>
         </div>
       </div>
       <div className="eachBody">
-        <image className="img"> Image</image>
+        <image className="img" src="" alt="">
+          Image
+        </image>
         <div className="imgText">
           <p>Intro</p>
         </div>
       </div>
       <div className="eachBody2">
-        <image className="img"> Image</image>
+        <image className="img" src="" alt="">
+          Image
+        </image>
         <div className="imgText">
           <p>Intro</p>
         </div>
       </div>
       <div className="eachBody">
-        <image className="img"> Image</image>
+        <image className="img" src="" alt="">
+          Image
+        </image>
         <div className="imgText">
           <p>Intro</p>
         </div>

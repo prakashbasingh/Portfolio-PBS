@@ -35,7 +35,11 @@ function Skills() {
         <div className="frontBack">
           <div className="frontBackDiv">
             <div class="fab fa-node"></div>
-            <p>NodeJS/Express</p>
+            <p>NodeJS</p>
+          </div>
+          <div className="frontBackDiv">
+            <div>Express</div>
+            <p></p>
           </div>
           <div className="frontBackDiv">
             {/* <div className="logo"></div> */}
