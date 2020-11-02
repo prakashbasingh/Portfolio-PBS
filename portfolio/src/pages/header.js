@@ -7,19 +7,34 @@ function Header() {
     <div className="header">
       <img
         className="image"
-        src="portfolio/src/images/profilePic.png"
-        alt="profile picture"
+        src="C:/Users/Prakash/Documents/LambdaAssignment/Portfolio-PBS/portfolio/src/images/profilePic.png"
+        alt=" PBS ProfilePic"
       ></img>
 
       <div className="intro">
         <h1>Hi,</h1>
         <p>
-          My name is Prakash Bahadur Singh and I am a full stack web developer
-          from Sacramento, California. I am always eager to learn new thing and
-          I am excited to gain more experience and grow in the web development
-          field.
+          My name is Prakash Bahadur Singh, and I am a full-stack web developer
+          from Sacramento, California. I enjoy learning new things, and I am
+          excited to gain experience and grow in the web development field.
         </p>
-        <p>Before it was too late, I finally found my passion to pursue. </p>
+        <p>
+          I was a clinical lab science student, but I gravitate more towards
+          programming. In March of 2020, I began my programming journey with
+          Lambda School. With robust and vigorous nine months of training . I
+          learned not only coding but also how we should work and grow as a team
+          member. The experience that I gained from lambda school, such as
+          coding classes and challanging coding projects, building application
+          as a team during the build weeks, and their support to make their
+          students ready for the job is very motivating.
+        </p>
+        <p>
+          Now, I can proudly say I became more communicative and team-oriented
+          programmer. I am a good listener and open to feedback. My interest is
+          to learn new things and building new products. I am happy and proud
+          and very excited to explore more, learn more, and grow more in the Web
+          Development field.
+        </p>
       </div>
     </div>
   );
