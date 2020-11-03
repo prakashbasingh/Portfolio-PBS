@@ -7,6 +7,7 @@ import frontEndPotluck from "../images/frontEndPotluck.png";
 function Body() {
   return (
     <div className="projectBody">
+      <h4>Projects</h4>
       <div className="eachBody">
         <div className="imageAndLivePage">
           <img
@@ -22,7 +23,7 @@ function Body() {
           <ul>
             <li>Build with ReactJS</li>
             <li>Hooks for state management</li>
-            <li>Display picture of the day, its title & description</li>
+            <li>Displays date, picture of the day, its title & description</li>
           </ul>
           <a href="https://github.com/prakashbasingh/nasa-photo-of-the-day/tree/Prakash-Singh">
             GitHub
@@ -41,10 +42,10 @@ function Body() {
         <div className="imgText">
           <p>Intro</p>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>ReactJS(Front-End)</li>
+            <li>Hooks for state management</li>
+            <li>Custom authentication for register and login</li>
+            <li>css/styled component</li>
           </ul>
           <a href="">GitHub</a>
         </div>
