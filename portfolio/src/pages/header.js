@@ -1,15 +1,12 @@
 import React from "react";
 import "../css/App2.css";
 import "../css/header.css";
+import profilePic from "../images/profilePic.jpg";
 
 function Header() {
   return (
     <div className="header">
-      <img
-        className="image"
-        src="C:/Users/Prakash/Documents/LambdaAssignment/Portfolio-PBS/portfolio/src/images/profilePic.png"
-        alt=" PBS ProfilePic"
-      ></img>
+      <img className="image" src={profilePic} alt=" PBS ProfilePic"></img>
 
       <div className="intro">
         <h1>Hi,</h1>
@@ -30,10 +27,10 @@ function Header() {
         </p>
         <p>
           Now, I can proudly say I became more communicative and team-oriented
-          programmer. I am a good listener and open to feedback. My interest is
-          to learn new things and building new products. I am happy and proud
-          and very excited to explore more, learn more, and grow more in the Web
-          Development field.
+          programmer. I am a good listener and open for feedback to enhance my
+          overall ability. I like to learn new technology and integrate into
+          applications. I am very happy, proud, and very excited to explore
+          more, learn more, and grow more in the Web Development field.
         </p>
       </div>
     </div>

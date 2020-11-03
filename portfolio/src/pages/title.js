@@ -9,7 +9,7 @@ function Title() {
       <div className="links">
         <a className="box" id="profile" href="">
           <div className="fa fa-user-circle"></div>
-          <p>Profile</p>
+          <p className="p1 profile">Profile</p>
         </a>
         <a
           className="box"
@@ -17,11 +17,11 @@ function Title() {
           href="https://prakashbasingh.github.io/portfolio-website/"
         >
           <div className="fa fa-tasks"></div>
-          <p>Projects</p>
+          <p className="p1 project">Projects</p>
         </a>
         <a className="box" id="gitHub" href="https://github.com/prakashbasingh">
           <div className="fa fa-github"></div>
-          <p>GitHub</p>
+          <p className="p1 github">GitHub</p>
         </a>
         <a
           className="box"
@@ -29,11 +29,11 @@ function Title() {
           href="https://www.linkedin.com/in/prakash-singh-457100177/"
         >
           <div className="fa fa-linkedin"></div>
-          <p>Linkedin</p>
+          <p className="p1 linkedin">Linkedin</p>
         </a>
         <a className="box" id="twitter" href="https://twitter.com/PraxBaS">
           <div className="fa fa-twitter"></div>
-          <p>Twitter</p>
+          <p className="p1 twitter">Twitter</p>
         </a>
       </div>
     </div>

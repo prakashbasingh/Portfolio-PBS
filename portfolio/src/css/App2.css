@@ -14,6 +14,12 @@ html, body {
     color: white;
     font-family: 'Kodchasan', sans-serif;
 }
+/* html {
+  height: 250px;
+  background: transparent no-repeat center;
+  background-size: cover;
+  background-image: url('http://i.imgur.com/lNB7QSt.jpg')
+} */
 
 /* .container > div {
     display: flex;
@@ -33,7 +39,7 @@ html, body {
 
 .App {
     height: 100%;
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: grid;
     grid-gap: 5px;
@@ -41,6 +47,7 @@ html, body {
     grid-auto-rows: 100px;
     grid-template-areas:
         ". . . t t t t t t t t t t t t . . ."
+        ". . . h h h h h h h h h h h h . . ."
         ". . . h h h h h h h h h h h h . . ."
         ". . . h h h h h h h h h h h h . . ."
         ". . . h h h h h h h h h h h h . . ."

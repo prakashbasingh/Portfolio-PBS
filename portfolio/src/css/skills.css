@@ -10,6 +10,8 @@
     flex-direction: column;
     margin: 2%;
     width: 90%;
+    box-shadow: 0 0 15px 5px orange;
+    border-radius: 1rem;
 }
 .skills > h3 {
     text-align: center;;
@@ -31,7 +33,7 @@
     height: 20%;
     width: 20%;
     text-align: center;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 .skills > .frontBackEnd> .frontBack > .frontBackDiv > .fab{

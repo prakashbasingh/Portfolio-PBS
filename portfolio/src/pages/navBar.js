@@ -12,7 +12,7 @@ function NavBar() {
             <span class="icon">
               <i class="fa fa-user-circle"></i>
             </span>
-            <span class="iconTitle">Profile</span>
+            <span class="iconTitle profile">Profile</span>
           </a>
         </li>
         <li>
@@ -24,7 +24,7 @@ function NavBar() {
             <span class="icon">
               <i class="fa fa-tasks"></i>
             </span>
-            <span class="iconTitle">Projects</span>
+            <span class="iconTitle project">Projects</span>
           </a>
         </li>
         <li>
@@ -37,7 +37,7 @@ function NavBar() {
               <i class="fa fa-github"></i>
             </span>
 
-            <span class="iconTitle">GitHub</span>
+            <span class="iconTitle github">GitHub</span>
           </a>
         </li>
         <li>
@@ -49,7 +49,7 @@ function NavBar() {
             <span class="icon">
               <i class="fa fa-linkedin"></i>
             </span>
-            <span class="iconTitle">Linkedin</span>
+            <span class="iconTitle linkedin">Linkedin</span>
           </a>
         </li>
         <li>
@@ -61,7 +61,7 @@ function NavBar() {
             <span class="icon">
               <i class="fa fa-twitter"></i>
             </span>
-            <span class="iconTitle">Twitter</span>
+            <span class="iconTitle twitter">Twitter</span>
           </a>
         </li>
       </ul>

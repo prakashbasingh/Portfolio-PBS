@@ -6,12 +6,12 @@
     animation: 2s ease-out 0s 1 welcome;
 }
 @keyframes welcome {
-    0% {transform: translateX(100%);}
+    0% {transform: translateX(30%);}
     100% {transform: translateX(0);}
 }
 .title {
     grid-area: t;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     width: 100%;
     margin: 0.5rem;
     height: 6rem;
@@ -21,7 +21,7 @@
     /* position: fixed; */
 }
 .title > .links {
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     position: relative;
     display: flex;
     
@@ -29,13 +29,13 @@
     
 }
 @keyframes mymove {
-    0% {transform: translateX(-100%);}
+    0% {transform: translateX(-30%);}
     100% {transform: translateX(0);}
 }
 .title > .links > a {
     height: 100px;
     text-decoration: none;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .title > .links > a > .fa{
     margin: 20px;
@@ -64,8 +64,28 @@
     position: absolute;
     z-index: 1;
 }
-.title .links .box .fa:hover p{
-    display: box;
+.title .links a:hover .p1{
+    display: block;
+}
+.title .links a:hover .profile{
+    border: 2px solid orange;
+    box-shadow: 0 0 25px 10px orange;
+}
+.title .links a:hover .project{
+    border: 2px solid limegreen;
+    box-shadow: 0 0 20px 10px limegreen;
+}
+.title .links a:hover .github{
+    border: 2px solid gray;
+    box-shadow: 0 0 20px 10px gray;
+}
+.title .links a:hover .linkedin{
+    border: 2px solid #0e76a8;
+    box-shadow: 0 0 20px 10px #0e76a8;
+}
+.title .links a:hover .twitter{
+    border: 2px solid #00acee;
+    box-shadow: 0 0 20px 10px #00acee;
 }
 .title > .links > a > div.fa-linkedin{
     background: #0e76a8;
