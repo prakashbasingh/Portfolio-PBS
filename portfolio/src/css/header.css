@@ -30,7 +30,7 @@
     margin: 2%;
     padding: 1rem;
     /* border: 1px solid gray; */
-    transition: transform 1s;
+    transition: transform 2s;
     border-radius: 2rem
 
 
@@ -44,8 +44,8 @@ p{
 .intro:hover {
     background: gray;
     color: black;
-    border: 1px solid orange;
-    box-shadow: 0 0 15px 0px gold;
+    border: 1px solid gray;
+    box-shadow: 0 0 15px 0px gray;
     width: 60%;
     height: 70%;
     transform: scale(1.2);

@@ -1,6 +1,23 @@
 /* styling for nav bar */
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.projects{
+    grid-area: b;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    /* overflow-y: auto; */
+    border: 1px solid orange;
+    box-shadow: 0 0 15px 0px gold;
+    border-radius: 1rem;
+    /* border: 1px solid gray; */
+}
 .Welcome{
     margin-left: 1%;
     position: relative;
@@ -75,9 +92,9 @@
     border: 2px solid brown;
     box-shadow: 0 0 25px 10px brown;
 }
-.navigation .links a:hover .project{
-    border: 2px solid limegreen;
-    box-shadow: 0 0 20px 10px limegreen;
+.navigation .links a:hover .profile{
+    border: 2px solid orange;
+    box-shadow: 0 0 20px 10px orange;
 }
 .navigation .links a:hover .github{
     border: 2px solid gray;
@@ -132,20 +149,20 @@
     box-shadow: 0 0 15px 6px brown;
     transform: scale(1.2);
 }
-.navigation > .links > a > div.fa-tasks{
-    background: limegreen; 
+.navigation > .links > a > div.fa-user-circle{
+    background: orange; 
 }
-.navigation > .links > a > div.fa-tasks:hover {
-    color: limegreen;
+.navigation > .links > a > div.fa-user-circle:hover {
+    color: orange;
     background: #fff;
-    border: 1px solid limegreen;
-    box-shadow: 0 0 15px 6px limegreen;
+    border: 1px solid orange;
+    box-shadow: 0 0 15px 6px orange;
     transform: scale(1.2);
 }
 
 
 /* from here styling for each project  */
-.projects{
+/* .projects{
     grid-area: b;
     width: 80%;
     height: 100%;
@@ -155,12 +172,13 @@
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
     border: 1px solid orange;
     box-shadow: 0 0 15px 0px gold;
     border-radius: 1rem;
-    /* border: 1px solid gray; */
-}
+    border: 1px solid gray; 
+ }  */
+
 .projectSection{
     height: 100%;
     width: 80%;

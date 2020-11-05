@@ -1,9 +1,6 @@
 import React from "react";
 import "../css/App2.css";
 import "../css/profile.css";
-import { Link } from "react-router-dom";
-
-import MainPage from "./mainPage.js";
 
 function Profile() {
   return (
@@ -13,7 +10,7 @@ function Profile() {
         <div className="links">
           <a className="box" id="profile" href="/">
             <div className="fa fa-home"></div>
-            <p className="p1 profile">Home</p>
+            <p className="p1 home">Home</p>
           </a>
           <a className="box" id="projectLink" href="/projects">
             <div className="fa fa-tasks"></div>

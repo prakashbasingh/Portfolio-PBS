@@ -8,7 +8,7 @@ function NavBar() {
       <h4>Please Select</h4>
       <ul className="links">
         <li>
-          <a className="navLink" id="profile" href="" attr="Profile">
+          <a className="navLink" id="profile" href="/profile" attr="Profile">
             <span class="icon">
               <i class="fa fa-user-circle"></i>
             </span>
@@ -16,11 +16,7 @@ function NavBar() {
           </a>
         </li>
         <li>
-          <a
-            className="navLink"
-            id="projectLink"
-            href="https://prakashbasingh.github.io/portfolio-website/"
-          >
+          <a className="navLink" id="projectLink" href="/projects">
             <span class="icon">
               <i class="fa fa-tasks"></i>
             </span>

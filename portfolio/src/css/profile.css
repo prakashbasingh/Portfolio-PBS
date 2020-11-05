@@ -17,3 +17,19 @@
     padding: 10%;
     position: relative;
 }
+
+.profilePopUp .title .links a:hover .home{
+    border: 2px solid brown;
+    box-shadow: 0 0 25px 10px brown;
+}
+
+.profilePopUp .title .links a div.fa-home{
+    background: brown; 
+}
+.profilePopUp .title .links a div.fa-home:hover {
+    color: brown;
+    background: #fff;
+    border: 1px solid brown;
+    box-shadow: 0 0 15px 6px brown;
+    transform: scale(1.2);
+}
