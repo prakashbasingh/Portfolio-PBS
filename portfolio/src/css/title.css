@@ -20,6 +20,10 @@
     flex-wrap: wrap;
     /* position: fixed; */
 }
+.title:hover{
+    border-bottom: 1px solid orange;
+    box-shadow-bottom: 0 0 15px 0px gold;
+}
 .title > .links {
     /* border: 1px solid gold; */
     position: relative;

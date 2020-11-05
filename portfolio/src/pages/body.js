@@ -3,6 +3,8 @@ import "../css/App2.css";
 import "../css/body.css";
 import nasapicoftheday from "../images/nasapicoftheday.png";
 import frontEndPotluck from "../images/frontEndPotluck.png";
+import backEndPotluck from "../images/backEndPotluck.png";
+import EchoSoap from "../images/EchoSoap.png";
 
 function Body() {
   return (
@@ -47,41 +49,51 @@ function Body() {
             <li>Custom authentication for register and login</li>
             <li>css/styled component</li>
           </ul>
-          <a href="">GitHub</a>
+          <a href="https://github.com/BW-Potluck-Planner-2/front-end/tree/Prakash-Singh">
+            GitHub
+          </a>
         </div>
       </div>
       <div className="eachBody">
         <div className="imageAndLivePage">
-          <img className="img" src="" alt=""></img>
-          <a href="">Live Page</a>
+          <img
+            className="img"
+            src={backEndPotluck}
+            alt="potluck planner back-end"
+          ></img>
+          <a href="https://potluckplanner1.herokuapp.com/">Live Page</a>
         </div>
 
         <div className="imgText">
           <p>Intro</p>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>NodeJS</li>
+            <li>Express</li>
+            <li>Knex</li>
+            <li>Data structure, migration, data seed, routing </li>
           </ul>
-          <a href="">GitHub</a>
+          <a href="https://github.com/Potlock-Planner-1/Backend/tree/Prakash-Singh">
+            GitHub
+          </a>
         </div>
       </div>
       <div className="eachBody2">
         <div className="imageAndLivePage">
-          <img className="img" src="" alt=""></img>
-          <a href="">Live Page</a>
+          <img className="img" src={EchoSoap} alt="EchoSoap back-end"></img>
+          <a href="https://27c.ecosoap.dev/login">Live Page</a>
         </div>
 
         <div className="imgText">
           <p>Intro</p>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Back-end with NodeJS/Express</li>
+            <li>Data Structure</li>
+            <li>Data Migration/Data seeding</li>
+            <li>Build Router/Model</li>
           </ul>
-          <a href="">GitHub</a>
+          <a href="https://github.com/Lambda-School-Labs/Labs27-ecosoap-teamC-BE">
+            GitHub
+          </a>
         </div>
       </div>
       <div className="eachBody">

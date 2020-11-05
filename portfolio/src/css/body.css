@@ -8,7 +8,8 @@
     justify-content: space-around;
     text-align: center;
     overflow-y: scroll;
-    box-shadow: 0 0 15px 5px orange;
+    border: 1px solid orange;
+    box-shadow: 0 0 15px 0px gold;
     border-radius: 1rem;
     /* border: 1px solid gray; */
 }
@@ -42,17 +43,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+
 }
 
 img{
-    /* border: 1px solid gray; */
-    border-radius: 1rem;
-    height: 65%;
+    border: 1px solid orange;
+    box-shadow: 0 0 15px 0px gold;
+    border-radius: 3rem;
+    height: 50%;
+    width: 80%;
     object-fit: contain;
 }
 .projectBody .eachBody .imageAndLivePage a{
     text-decoration: none;
     width: 100px;
+    margin-top: 1rem;
     padding: .1rem;
     border: 1px solid gold;
     border-radius: 1rem;;
@@ -66,6 +72,7 @@ img{
 .projectBody .eachBody2 .imageAndLivePage a{
     text-decoration: none;
     width: 100px;
+    margin-top: 1rem;
     padding: .1rem;
     border: 1px solid gold;
     border-radius: 1rem;;
@@ -79,7 +86,7 @@ img{
 .imgText{
     /* border: 1px solid gray; */
     border-radius: 1rem;
-    width: 50%;
+    width: 60%;
     height: 100%;
     overflow: hidden;
     transition: transform .7s;

@@ -1,0 +1,286 @@
+/* styling for nav bar */
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+.Welcome{
+    margin-left: 1%;
+    position: relative;
+    animation: 2s ease-out 0s 1 welcome;
+}
+@keyframes welcome {
+    0% {transform: translateX(30%);}
+    100% {transform: translateX(0);}
+}
+.navigation {
+    grid-area: t;
+    /* border: 1px solid gray; */
+    width: 100%;
+    margin: 0.5rem;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* position: fixed; */
+}
+.navigation:hover{
+    /* border-bottom: 1px solid orange; */
+}
+.navigation > .links {
+    /* border: 1px solid gold; */
+    position: relative;
+    display: flex;
+    
+    animation: 2s ease-out 0s 1 mymove;
+    
+}
+@keyframes mymove {
+    0% {transform: translateX(-30%);}
+    100% {transform: translateX(0);}
+}
+.navigation > .links > a {
+    height: 100px;
+    text-decoration: none;
+    /* border: 1px solid red; */
+}
+.navigation > .links > a > .fa{
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 50px;
+    background: gray;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 2rem;
+    transition: all 800ms ease-in-out;
+
+}
+.navigation > .links > .box > p{
+    background: black;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 120px;
+    display: none;
+    border-radius: 1rem;
+    padding: 5px 0;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+.navigation .links a:hover .p1{
+    display: block;
+}
+.navigation .links a:hover .home{
+    border: 2px solid brown;
+    box-shadow: 0 0 25px 10px brown;
+}
+.navigation .links a:hover .project{
+    border: 2px solid limegreen;
+    box-shadow: 0 0 20px 10px limegreen;
+}
+.navigation .links a:hover .github{
+    border: 2px solid gray;
+    box-shadow: 0 0 20px 10px gray;
+}
+.navigation .links a:hover .linkedin{
+    border: 2px solid #0e76a8;
+    box-shadow: 0 0 20px 10px #0e76a8;
+}
+.navigation .links a:hover .twitter{
+    border: 2px solid #00acee;
+    box-shadow: 0 0 20px 10px #00acee;
+}
+.navigation > .links > a > div.fa-linkedin{
+    background: #0e76a8;
+}
+.navigation > .links > a > div.fa-linkedin:hover {
+    color: #0e76a8;
+    background: #fff;
+    border: 1px solid #0e76a8;
+    box-shadow: 0 0 15px 6px #0e76a8;
+    transform: scale(1.2);
+}
+.navigation > .links > a > div.fa-twitter{
+    background: #00acee; 
+}
+.navigation > .links > a > div.fa-twitter:hover {
+    color: #00acee;
+    background: #fff;
+    border: 1px solid #00acee;
+    box-shadow: 0 0 15px 6px #00acee;
+    transform: scale(1.2);
+}
+.navigation > .links > a > div.fa-github{
+    background: #211F1F;
+    border: 1px solid gray; 
+}
+.navigation > .links > a > div.fa-github:hover {
+    color: #211F1F;
+    background: #fff;
+    border: 1px solid #211F1F;
+    box-shadow: 0 0 15px 6px gray;
+    transform: scale(1.2);
+}
+.navigation > .links > a > div.fa-home{
+    background: brown; 
+}
+.navigation > .links > a > div.fa-home:hover {
+    color: brown;
+    background: #fff;
+    border: 1px solid brown;
+    box-shadow: 0 0 15px 6px brown;
+    transform: scale(1.2);
+}
+.navigation > .links > a > div.fa-tasks{
+    background: limegreen; 
+}
+.navigation > .links > a > div.fa-tasks:hover {
+    color: limegreen;
+    background: #fff;
+    border: 1px solid limegreen;
+    box-shadow: 0 0 15px 6px limegreen;
+    transform: scale(1.2);
+}
+
+
+/* from here styling for each project  */
+.projects{
+    grid-area: b;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    /* overflow-y: scroll; */
+    border: 1px solid orange;
+    box-shadow: 0 0 15px 0px gold;
+    border-radius: 1rem;
+    /* border: 1px solid gray; */
+}
+.projectSection{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    padding: 2rem;
+}
+
+.eachProject{
+    /* border: 1px solid gray; */
+    box-shadow: 0 0 15px 5px orangered;
+    border-radius: 1rem;
+    margin: 2rem;
+    /* height: 40%; */
+    width: 100%; 
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.eachProject2{
+    /* border: 1px solid gray; */
+    box-shadow: 0 0 15px 5px orangered;
+    border-radius: 1rem;
+    margin: 2rem; 
+    /* height: 40%; */
+    width: 100%; 
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.imageAndLivePage{
+    width: 50%;
+    height: 100%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    border: 1px solid orange;
+    box-shadow: 0 0 15px 0px gold;
+    border-radius: 3rem;
+    height: 50%;
+    width: 80%;
+    object-fit: contain;
+}
+.projects .projectSection .eachProject .imageAndLivePage a{
+    text-decoration: none;
+    width: 100px;
+    margin-top: 1rem;
+    padding: .1rem;
+    border: 1px solid gold;
+    border-radius: 1rem;;
+    background: gold;
+}
+.projects .projectSection .eachProject .imageAndLivePage a:hover{
+    background:purple;
+    color: gold;
+}
+
+.projects .projectSection .eachProject2 .imageAndLivePage a{
+    text-decoration: none;
+    width: 100px;
+    margin-top: 1rem;
+    padding: .1rem;
+    border: 1px solid gold;
+    border-radius: 1rem;;
+    background: gold;
+}
+.projects .projectSection .eachProject2 .imageAndLivePage a:hover{
+    background:purple;
+    color: gold;
+}
+
+.imgText{
+    /* border: 1px solid gray; */
+    border-radius: 1rem;
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform .7s;
+}
+.projects .projectSection .eachProject .imgText ul li{
+        text-align: left;
+}
+.projects .projectSection .eachProject2 .imgText ul li{
+        text-align: left;
+}
+.projects .projectSection .eachProject .imgText a{
+    text-decoration: none;
+    padding: .1rem;
+    border: 1px solid gold;
+    border-radius: 1rem;;
+    background: gold;
+}
+.projects .projectSection .eachProject .imgText a:hover{
+    background:purple;
+    color: gold;
+}
+.projects .projectSection .eachProject2 .imgText a{
+    text-decoration: none;
+    padding: .1rem;
+    border: 1px solid gold;
+    border-radius: 1rem;;
+    background: gold;
+}
+.projects .projectSection .eachProject2 .imgText a:hover{
+    background:purple;
+    color: gold;
+}
+.imgText:hover{
+    transform: scale(1.4);
+    box-shadow: 0 0 15px 5px gray;
+    background: gray;
+    overflow: hidden;
+}
+

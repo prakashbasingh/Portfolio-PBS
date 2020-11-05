@@ -7,15 +7,11 @@ function Title() {
     <div className="title">
       <h2 className="Welcome">Welcome to My Portfolio Page</h2>
       <div className="links">
-        <a className="box" id="profile" href="">
+        <a className="box" id="profile" href="/profile">
           <div className="fa fa-user-circle"></div>
           <p className="p1 profile">Profile</p>
         </a>
-        <a
-          className="box"
-          id="projectLink"
-          href="https://prakashbasingh.github.io/portfolio-website/"
-        >
+        <a className="box" id="projectLink" href="/projects">
           <div className="fa fa-tasks"></div>
           <p className="p1 project">Projects</p>
         </a>

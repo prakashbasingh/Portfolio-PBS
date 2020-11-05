@@ -5,12 +5,12 @@
 
 .skills {
     grid-area: s;
-    border: 1px solid gray;
     display: flex;
     flex-direction: column;
     margin: 2%;
     width: 90%;
-    box-shadow: 0 0 15px 5px orange;
+    border: 1px solid orange;
+    box-shadow: 0 0 15px 0px gold;
     border-radius: 1rem;
 }
 .skills > h3 {
