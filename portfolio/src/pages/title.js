@@ -1,7 +1,6 @@
 import React from "react";
 // import "../css/App2.css";
 import "../css/title.css";
-import Welcome from "../images/welcome.jpg";
 
 function Title() {
   return (

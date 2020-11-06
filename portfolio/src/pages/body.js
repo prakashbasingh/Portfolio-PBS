@@ -13,11 +13,7 @@ function Body() {
       <div className="allBody">
         <div className="eachBody">
           <div className="imageAndLivePage">
-            <img
-              className="img"
-              src={nasapicoftheday}
-              alt="nasa photo of the day"
-            ></img>
+            <img className="img" src={nasapicoftheday}></img>
 
             {/* <a>Live Page</a> */}
           </div>
