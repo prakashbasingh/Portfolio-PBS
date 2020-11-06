@@ -10,7 +10,7 @@ function Title() {
           <div className="fa fa-user-circle"></div>
           <p className="p1 profile">Profile</p>
         </a>
-        <a className="box" id="projectLink" href="//projects">
+        <a className="box" id="projectLink" href="/projects">
           <div className="fa fa-tasks"></div>
           <p className="p1 project">Projects</p>
         </a>

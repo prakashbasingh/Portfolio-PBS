@@ -17,6 +17,9 @@
     transition: all 800ms ease-in-out;
 
 }
+.links{
+    margin: 5%;
+}
 .nav:hover {
     width: 90%;
     /* transition: all 800ms ease-in-out; */
