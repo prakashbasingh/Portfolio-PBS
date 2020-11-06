@@ -31,7 +31,7 @@ function Title() {
           <p className="p1 twitter">Twitter</p>
         </a>
       </div>
-      <h2 className="Welcome">Welcome . . . . . . </h2>
+      <h2 className="Welcome">Welcome to My Portfolio✨</h2>
     </div>
   );
 }

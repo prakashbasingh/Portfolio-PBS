@@ -28,11 +28,11 @@
 
 .header > .intro {
     width: 60%;
-    height: 80%;
+    height: 70%;
     margin: 2%;
     padding: 1rem;
     /* border: 1px solid gray; */
-    transition: all 2s ease-in-out;
+    transition: all 1.5s ease-in-out;
     border-radius: 2rem
 
 
@@ -51,7 +51,7 @@ p{
     border: 1px solid gray;
     box-shadow: 0 0 15px 0px gray;
     width: 60%;
-    height: 70%;
+    height: 60%;
     transform: scale(1.2);
     font-size: 1.4rem;
     padding:1.5rem;

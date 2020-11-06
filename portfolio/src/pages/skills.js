@@ -49,14 +49,14 @@ function Skills() {
             {/* <div className="logo"></div> */}
             <p>SQLite</p>
           </div>
-          <div className="frontBackDiv">
-            {/* <div></div> */}
-            <p></p>
-          </div>
-          <div className="frontBackDiv">
-            {/* <div></div> */}
-            <p></p>
-          </div>
+          {/* <div className="frontBackDiv"> */}
+          {/* <div></div> */}
+          {/* <p></p> */}
+          {/* </div> */}
+          {/* <div className="frontBackDiv"> */}
+          {/* <div></div> */}
+          {/* <p></p> */}
+          {/* </div> */}
         </div>
       </div>
     </div>

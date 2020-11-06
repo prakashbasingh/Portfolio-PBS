@@ -6,7 +6,7 @@
     animation: 2s ease-out 0s 1 welcome;
 }
 @keyframes welcome {
-    0% {transform: translateX(50%);}
+    0% {transform: translateX(100%);}
     100% {transform: translateX(0);}
 }
 .title {
@@ -23,7 +23,7 @@
     /* position: fixed; */
     /* border-bottom-left-radius: 5rem;
     border-top-right-radius: 5rem; */
-    transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 .Welcome{
     font-size: 3rem;
