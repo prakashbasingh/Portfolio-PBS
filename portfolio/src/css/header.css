@@ -4,11 +4,13 @@
     /* border: 1px solid gray; */
     height: 100%;
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
+    margin-top: 5%;
     /* background-image: url("C:/Users/Prakash/Documents/LambdaAssignment/Portfolio-PBS/portfolio/src/images/inTheWilderness.png"); */
     display: flex;
     justify-content: space-between;
     align-items: center;
+ 
     
 }
  
@@ -30,7 +32,7 @@
     margin: 2%;
     padding: 1rem;
     /* border: 1px solid gray; */
-    transition: transform 2s;
+    transition: all 2s ease-in-out;
     border-radius: 2rem
 
 
@@ -40,6 +42,8 @@ h1{
 }
 p{
     margin: 1%;
+    font-size: 1.4rem;
+    transition: all 1s ease-in-out;
 }
 .intro:hover {
     background: gray;
@@ -49,8 +53,11 @@ p{
     width: 60%;
     height: 70%;
     transform: scale(1.2);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding:1.5rem;
 
 }
+/* .intro:hover p{
+
+} */
 

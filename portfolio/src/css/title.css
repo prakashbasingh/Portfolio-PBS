@@ -13,16 +13,37 @@
     grid-area: t;
     /* border: 1px solid gray; */
     width: 100%;
+    padding: 2%;
     margin: 0.5rem;
-    height: 6rem;
+    height: 15rem;
     display: flex;
+    /* flex-direction: column; */
     justify-content: space-between;
     flex-wrap: wrap;
     /* position: fixed; */
+    /* border-bottom-left-radius: 5rem;
+    border-top-right-radius: 5rem; */
+    transition: all 2s ease-in-out;
 }
+.Welcome{
+    font-size: 3rem;
+}
+/* .welcomeImg{
+    border: 1px solid gold;
+    display: flex;
+    justify-content: right;
+}
+.welcomeImg img{
+    width: 30%;
+    object-fit: cover;
+} */
 .title:hover{
-    border-bottom: 1px solid orange;
-    box-shadow-bottom: 0 0 15px 0px gold;
+    /* border-bottom: 1px solid orange; */
+   border-bottom-right-radius: 5rem;
+   border-top-left-radius: 5rem;
+   box-shadow: 0 0 15px 0px gold;
+   /* transition: all 2s ease-in-out; */
+   
 }
 .title > .links {
     /* border: 1px solid gold; */

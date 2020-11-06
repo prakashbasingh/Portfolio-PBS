@@ -39,7 +39,7 @@ html, body {
 
 .App {
     height: 100%;
-    width: 70%;
+    width: 80%;
     margin: auto;
     display: grid;
     grid-gap: 5px;
@@ -47,12 +47,18 @@ html, body {
     grid-auto-rows: 100px;
     grid-template-areas:
         ". . . t t t t t t t t t t t t . . ."
+        ". . . t t t t t t t t t t t t . . ."
         ". . . h h h h h h h h h h h h . . ."
         ". . . h h h h h h h h h h h h . . ."
         ". . . h h h h h h h h h h h h . . ."
         ". . . h h h h h h h h h h h h . . ."
         ". . . h h h h h h h h h h h h . . ."
         ". . . h h h h h h h h h h h h . . ."
+        ". . . h h h h h h h h h h h h . . ."
+        ". . . h h h h h h h h h h h h . . ."
+        ". . . h h h h h h h h h h h h . . ."
+        ". . . n n n s s s b b b b b b . . ."
+        ". . . n n n s s s b b b b b b . . ."
         ". . . n n n s s s b b b b b b . . ."
         ". . . n n n s s s b b b b b b . . ."
         ". . . n n n s s s b b b b b b . . ."

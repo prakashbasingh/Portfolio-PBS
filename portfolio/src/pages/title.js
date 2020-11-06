@@ -1,17 +1,17 @@
 import React from "react";
 // import "../css/App2.css";
 import "../css/title.css";
+import Welcome from "../images/welcome.jpg";
 
 function Title() {
   return (
     <div className="title">
-      <h2 className="Welcome">Welcome to My Portfolio Page</h2>
       <div className="links">
         <a className="box" id="profile" href="/profile">
           <div className="fa fa-user-circle"></div>
           <p className="p1 profile">Profile</p>
         </a>
-        <a className="box" id="projectLink" href="/projects">
+        <a className="box" id="projectLink" href="//projects">
           <div className="fa fa-tasks"></div>
           <p className="p1 project">Projects</p>
         </a>
@@ -32,6 +32,7 @@ function Title() {
           <p className="p1 twitter">Twitter</p>
         </a>
       </div>
+      <h2 className="Welcome">Welcome . . . . . . </h2>
     </div>
   );
 }

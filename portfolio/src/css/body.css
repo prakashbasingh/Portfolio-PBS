@@ -2,18 +2,28 @@
     grid-area: b;
     width: 100%;
     height: 100%;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
     text-align: center;
-    overflow-y: scroll;
+    justify-content: center;;
     border: 1px solid orange;
     box-shadow: 0 0 15px 0px gold;
     border-radius: 1rem;
-    /* border: 1px solid gray; */
 }
-
+.allBody{
+    overflow-y: scroll;
+    margin: 3%;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gold;
+    border-radius: 1rem;
+}
+/* .projectBody:hover h4{
+    position: fixed;
+    color: red;
+} */
 .eachBody{
     /* border: 1px solid gray; */
     box-shadow: 0 0 15px 5px orangered;
