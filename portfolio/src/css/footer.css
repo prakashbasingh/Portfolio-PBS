@@ -18,7 +18,6 @@
 }
 
 .footer > .links{
-    grid-area: t;
     display: flex;
     margin-bottom: 20px;;
     justify-content: center;
@@ -53,22 +52,27 @@
 .footer .links a:hover .profile{
     border: 2px solid orange;
     box-shadow: 0 0 25px 10px orange;
+    color: orange;
 }
 .footer .links a:hover .project{
     border: 2px solid limegreen;
     box-shadow: 0 0 20px 10px limegreen;
+    color: limegreen;
 }
 .footer .links a:hover .github{
     border: 2px solid gray;
     box-shadow: 0 0 20px 10px gray;
+    color: gray;
 }
 .footer .links a:hover .linkedin{
     border: 2px solid #0e76a8;
     box-shadow: 0 0 20px 10px #0e76a8;
+    color: #0e76a8;
 }
 .footer .links a:hover .twitter{
     border: 2px solid #00acee;
     box-shadow: 0 0 20px 10px #00acee;
+    color: #00acee;
 }
 
 .footer > .links > a > div.fa-linkedin{
@@ -131,4 +135,14 @@
     border: 1px solid limegreen;
     box-shadow: 0 0 15px 6px limegreen;
     transform: scale(1.2);
+}
+@media only screen and (max-width: 900px){
+    .footer{
+    margin: 2%;
+    }
+    .footer .links {
+        text-align: center;
+        margin: auto;
+    }
+
 }

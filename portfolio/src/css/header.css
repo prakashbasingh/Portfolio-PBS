@@ -60,4 +60,85 @@ p{
 /* .intro:hover p{
 
 } */
+/* Media Queries */
+@media only screen and (max-width: 1500px){
+
+    .header{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+    .header img{
+        width: 20%;
+        height: 50%;
+
+    }
+    .header .intro{
+        width: 65%;
+        height: 70%;
+        margin: 2%;
+        padding: 1%;
+
+    }
+
+}
+@media only screen and (max-width: 1200px){
+    .header img{
+        width: 30%;
+        height: 50%;
+
+    }
+    .header .intro{
+        width: 80%;
+        height: 70%;
+        padding: 1%;
+
+    }
+    p {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 900px){
+    .header{
+        flex-direction: column;
+
+    }    
+    
+    .header img{
+        width: 20%;
+        height: 20%;
+
+    }
+    .header .intro h1,p{
+        font-size: 1rem;
+    }
+    .header .intro{
+        margin: 0;
+        padding: 2%;
+        margin-bottom: 5%;
+        transform: none;
+   ;
+    }
+
+
+}
+@media(max-width: 600px){
+    .header{
+        margin-bottom: 5%;
+    }
+    .header .image{
+         width: 30%;
+        height: 30%;
+        margin-bottom: 2%;
+    }
+    .header .intro{
+        width: 100%;
+        /* transition: none; */
+        transform: none;
+        margin-bottom: 5%;
+    }
+}
 

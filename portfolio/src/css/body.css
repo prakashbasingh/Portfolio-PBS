@@ -137,3 +137,20 @@ img{
     overflow: hidden;
 }
 
+/* Media Queries */
+@media only screen and (max-width: 1500px){
+    .allBody{
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 800px){
+
+}
+@media only screen and (max-width: 600px){
+    html{
+        background: green;
+    }
+}

@@ -38,8 +38,8 @@ function Skills() {
             <p>NodeJS</p>
           </div>
           <div className="frontBackDiv">
-            <div>Express</div>
-            <p></p>
+            {/* <div>Express</div> */}
+            <p>Express</p>
           </div>
           <div className="frontBackDiv">
             {/* <div className="logo"></div> */}

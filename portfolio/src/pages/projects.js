@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/App2.css";
+// import "../css/App2.css";
 import "../css/project.css";
 import nasapicoftheday from "../images/nasapicoftheday.png";
 import frontEndPotluck from "../images/frontEndPotluck.png";
@@ -10,7 +10,10 @@ function Body() {
   return (
     <div className="projects">
       <div className="navigation">
-        <h2 className="Welcome">Projects</h2>
+        <div>
+          <h2 className="Welcome">Projects</h2>
+        </div>
+
         <div className="links">
           <a className="box" id="profile" href="/">
             <div className="fa fa-home"></div>

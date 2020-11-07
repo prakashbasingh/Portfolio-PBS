@@ -1,12 +1,12 @@
 import React from "react";
-import "../css/App2.css";
+// import "../css/App2.css";
 import "../css/profile.css";
 
 function Profile() {
   return (
     <div className="profilePopUp">
       <div className="title">
-        <h2 className="Welcome">Profile</h2>
+        <h2 className="pro">Profile</h2>
         <div className="links">
           <a className="box" id="profile" href="/">
             <div className="fa fa-home"></div>

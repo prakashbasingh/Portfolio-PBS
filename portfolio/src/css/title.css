@@ -1,6 +1,6 @@
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
-.Welcome{
+.title div .Welcome{
     margin-left: 1%;
     position: relative;
     animation: 2s ease-out 0s 1 welcome;
@@ -14,10 +14,9 @@
     /* border: 1px solid gray; */
     width: 100%;
     padding: 2%;
-    margin: 0.5rem;
-    height: 15rem;
+    margin-top: 5%;
+    height: 100%;
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-between;
     flex-wrap: wrap;
     /* position: fixed; */
@@ -25,8 +24,8 @@
     border-top-right-radius: 5rem; */
     transition: all 1s ease-in-out;
 }
-.Welcome{
-    font-size: 3rem;
+.title div .Welcome{
+    font-size: 2.5rem;
 }
 /* .welcomeImg{
     border: 1px solid gold;
@@ -49,7 +48,7 @@
     /* border: 1px solid gold; */
     position: relative;
     display: flex;
-    
+    /* border: 1px solid gray; */
     animation: 2s ease-out 0s 1 mymove;
     
 }
@@ -95,22 +94,27 @@
 .title .links a:hover .profile{
     border: 2px solid orange;
     box-shadow: 0 0 25px 10px orange;
+    color: orange;
 }
 .title .links a:hover .project{
     border: 2px solid limegreen;
     box-shadow: 0 0 20px 10px limegreen;
+    color: limegreen;
 }
 .title .links a:hover .github{
     border: 2px solid gray;
     box-shadow: 0 0 20px 10px gray;
+    color: gray
 }
 .title .links a:hover .linkedin{
     border: 2px solid #0e76a8;
     box-shadow: 0 0 20px 10px #0e76a8;
+    color: #0e76a8;
 }
 .title .links a:hover .twitter{
     border: 2px solid #00acee;
     box-shadow: 0 0 20px 10px #00acee;
+    color: #00acee;
 }
 .title > .links > a > div.fa-linkedin{
     background: #0e76a8;
@@ -162,4 +166,61 @@
     border: 1px solid limegreen;
     box-shadow: 0 0 15px 6px limegreen;
     transform: scale(1.2);
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1500px){
+    .Welcome{
+        color: gold;
+        font-size: 1.5rem;
+    }
+    .links{
+        height: 80px;
+    }
+    .title{
+        height: 20%;
+        margin: 0;
+        padding: 1%;
+    }
+    .title > .links > a{
+        height: 80px;
+    }
+    .title > .links > a > .fa{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size:1.5rem;
+    }
+
+}
+
+@media  only screen and (max-width: 900px){
+    .title{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: fixed;
+        background: black;
+        width: 90%;
+        height: 10%;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .Welcome{
+        font-size: 1rem;
+    }
+    .links{
+        width: 50%;;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 600px){
+    .nav{
+        text-align: center;
+    }
+    .Welcome{
+    display: none;
+    }
+
 }

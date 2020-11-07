@@ -2,15 +2,47 @@
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 
+/* .projects {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(80%, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
+    grid-template-areas:
+        ". . . n n n n n n n n n n n n . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+        ". . . p p p p p p p p p p p p . . ."
+
+
+} */
+
 .projects{
-    grid-area: b;
+    grid-area: p;
     width: 80%;
     height: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     /* overflow-y: auto; */
     border: 1px solid orange;
@@ -28,13 +60,14 @@
     100% {transform: translateX(0);}
 }
 .navigation {
-    grid-area: t;
+    grid-area: n;
+    padding:2%;
     /* border: 1px solid gray; */
-    width: 100%;
-    margin: 0.5rem;
-    height: 6rem;
+    width: 90%;
+    margin: auto;
+    height: 20%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     /* position: fixed; */
 }
@@ -302,3 +335,31 @@ img{
     overflow: hidden;
 }
 
+@media only screen and(max-width: 900){
+    .projects{
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .projects .navigation div .welcome{
+        display: none;
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid gold;
+    }
+    .projects .navigation .links{
+        margin: auto;
+    }
+    .navigation > .links > a > .fa{
+        margin: 10px;
+        width: 20px;
+        height: 20px;
+        padding: 2px;
+        line-height: 20px;
+        font-size: 2rem;
+    }
+}
