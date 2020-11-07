@@ -140,7 +140,7 @@ img{
 /* Media Queries */
 @media only screen and (max-width: 1500px){
     .allBody{
-        
+
     }
 
 
@@ -150,7 +150,7 @@ img{
 
 }
 @media only screen and (max-width: 600px){
-    html{
-        background: green;
+    .projectBody{
+        margin: auto;
     }
 }

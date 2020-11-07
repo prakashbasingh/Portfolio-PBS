@@ -127,10 +127,10 @@ p{
 }
 @media(max-width: 600px){
     .header{
-        margin-bottom: 5%;
+        margin-top: 5%;
     }
-    .header .image{
-         width: 30%;
+    .header img{
+        width: 50%;
         height: 30%;
         margin-bottom: 2%;
     }
@@ -138,7 +138,7 @@ p{
         width: 100%;
         /* transition: none; */
         transform: none;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
 }
 
