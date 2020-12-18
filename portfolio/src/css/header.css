@@ -25,7 +25,9 @@
     border-radius: 2rem;
     object-fit: cover;
 }
-
+img:hover{
+    box-shadow: 0 0 15px 10px orangered;
+}
 .header > .intro {
     width: 60%;
     height: 70%;

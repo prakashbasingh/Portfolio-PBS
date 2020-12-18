@@ -136,7 +136,7 @@ function Body() {
             </a>
           </div>
         </div>
-        <div className="eachProject">
+        {/* <div className="eachProject">
           <div className="imageAndLivePage">
             <img className="img" src="" alt=""></img>
             <a href="">Live Page</a>
@@ -152,8 +152,8 @@ function Body() {
             </ul>
             <a href="">GitHub</a>
           </div>
-        </div>
-        <div className="eachProject2">
+        </div> */}
+        {/* <div className="eachProject2">
           <div className="imageAndLivePage">
             <img className="img" src="" alt=""></img>
             <a href="">Live Page</a>
@@ -169,8 +169,8 @@ function Body() {
             </ul>
             <a href="">GitHub</a>
           </div>
-        </div>
-        <div className="eachProject">
+        </div> */}
+        {/* <div className="eachProject">
           <div className="imageAndLivePage">
             <img className="img" src="" alt=""></img>
             <a href="">Live Page</a>
@@ -186,7 +186,7 @@ function Body() {
             </ul>
             <a href="">GitHub</a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
