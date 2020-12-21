@@ -193,24 +193,18 @@
     transform: scale(1.2);
 }
 
+.navigation > .links > a > div.fa-flask{
+    background: orangered; 
+}
+.navigation > .links > a > div.fa-flask:hover {
+    color: orangered;
+    background: #fff;
+    border: 1px solid orangered;
+    box-shadow: 0 0 15px 6px orangered;
+    transform: scale(1.2);
+}
 
 /* from here styling for each project  */
-/* .projects{
-    grid-area: b;
-    width: 80%;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-    overflow-y: scroll;
-    border: 1px solid orange;
-    box-shadow: 0 0 15px 0px gold;
-    border-radius: 1rem;
-    border: 1px solid gray; 
- }  */
 
 .projectSection{
     height: 100%;
@@ -328,6 +322,7 @@ img{
     background:purple;
     color: gold;
 }
+
 .imgText:hover{
     transform: scale(1.4);
     box-shadow: 0 0 15px 5px gray;

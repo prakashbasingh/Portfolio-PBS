@@ -61,6 +61,14 @@ function NavBar() {
               <span class="iconTitle twitter">Twitter</span>
             </a>
           </li>
+          <li>
+            <a className="navLink" id="experiment" href="/experiments">
+              <span class="icon">
+                <i class="fa fa-flask"></i>
+              </span>
+              <span class="iconTitle experiment">Experiments</span>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

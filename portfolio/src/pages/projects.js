@@ -43,6 +43,10 @@ function Body() {
             <div className="fa fa-twitter"></div>
             <p className="p1 twitter">Twitter</p>
           </a>
+          <a className="box" id="experiment" href="/experiments">
+            <div className="fa fa-flask"></div>
+            <p className="p1 experiment">Experiments</p>
+          </a>
         </div>
       </div>
       {/* <h2>Projects</h2> */}

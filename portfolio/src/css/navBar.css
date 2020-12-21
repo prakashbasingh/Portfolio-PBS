@@ -17,11 +17,17 @@
     transition: all 800ms ease-in-out;
 
 }
-.links{
-    margin: 5%;
+/* .navItems{
+    margin: 0;
+    border: 1px solid white;
 }
+.links{
+    margin: 0;
+        border: 1px solid white;
+
+} */
 .nav:hover {
-    width: 90%;
+    width: 100%;
     /* transition: all 800ms ease-in-out; */
 }
 
@@ -51,9 +57,12 @@
     /* width: 100%; */
     list-style: none;
 }
+/* ul{
+    border: 1px solid white;
+margin-left: 0;} */
 
 .nav ul li a .icon {
-    margin: 1rem 1rem 1rem 0;
+    margin: 1rem 0 1rem 0;
     
 }
 .nav .links li .navLink .icon .fa {    
@@ -97,6 +106,9 @@
 }
 .nav:hover .twitter{
     color:#00acee;
+}
+.nav:hover .experiment{
+    color: orangered;
 }
 .nav:hover .navLink{
     /* background: lightgray; */
@@ -163,6 +175,17 @@
     background: #fff;
     border: 1px solid #211F1F;
     box-shadow: 0 0 15px 6px gray;
+    transform: scale(1.2);
+}
+.nav .links li .navLink .icon .fa-flask{
+    background: orangered;
+    border: 1px solid orangered; 
+}
+.nav .links li .navLink .icon .fa-flask:hover {
+    color: orangered;
+    background: #fff;
+    border: 1px solid orangered;
+    box-shadow: 0 0 15px 6px orangered;
     transform: scale(1.2);
 }
 
