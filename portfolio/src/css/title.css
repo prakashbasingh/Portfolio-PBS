@@ -80,7 +80,7 @@
     background: black;
      border: 1px solid #fff;
     color: #fff;
-    width: 120px;
+    width: 145px;
     display: none;
     border-radius: 1rem;
     padding: 5px 0;
@@ -115,6 +115,11 @@
     border: 2px solid #00acee;
     box-shadow: 0 0 20px 10px #00acee;
     color: #00acee;
+}
+.title .links a:hover .experiment{
+    border: 2px solid orangered;
+    box-shadow: 0 0 20px 10px orangered;
+    color: orangered;
 }
 .title > .links > a > div.fa-linkedin{
     background: #0e76a8;
@@ -165,6 +170,16 @@
     background: #fff;
     border: 1px solid limegreen;
     box-shadow: 0 0 15px 6px limegreen;
+    transform: scale(1.2);
+}
+.title > .links > a > div.fa-flask{
+    background: orangered; 
+}
+.title > .links > a > div.fa-flask:hover {
+    color: orangered;
+    background: #fff;
+    border: 1px solid orangered;
+    box-shadow: 0 0 15px 6px orangered;
     transform: scale(1.2);
 }
 
