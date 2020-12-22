@@ -6,7 +6,7 @@ const TodoList = ({ state, toggleCompleted }) => {
   console.log(state, "SSSSSSSstate?????!!!??!?!");
   return (
     <div>
-      {state.tasks.map((todoTask) => {
+      {state.todos.map((todoTask) => {
         return (
           <Todo
             key={todoTask.id}

@@ -4,7 +4,7 @@ function TodoList(props) {
   const [item, setItem] = useState("");
   console.log(item, "??itemssssssss???????");
 
-  const { addTask, clearCompleted } = props;
+  const { addTodo, clearCompleted } = props;
 
   const handleChange = (event) => {
     setItem(event.target.value);
@@ -12,7 +12,7 @@ function TodoList(props) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    addTask(item);
+    addTodo(item);
     setItem("");
   };
   return (

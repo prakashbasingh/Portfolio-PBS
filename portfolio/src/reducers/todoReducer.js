@@ -5,7 +5,7 @@ import {
 } from "../actions/todoAction.js";
 
 export const initialState = {
-  tasks: [
+  todos: [
     {
       item: "Need to Learn Reducers",
       completed: false,
