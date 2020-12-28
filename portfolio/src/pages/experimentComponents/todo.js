@@ -1,6 +1,6 @@
 import React from "react";
 
-const Todo = ({ item, completed, id, toggleCompleted }) => {
+const Todo = ({ item, completed, id, toggleComplete }) => {
   //   console.log(item, "???????????????????????????????????????");
   //   console.log(completed, "?//////////?????????//////////////");
   //   console.log(id, "IDIDIDIIDIDIDIDIIDIDIDIDIDIDIDIDIDIDI");
@@ -8,7 +8,8 @@ const Todo = ({ item, completed, id, toggleCompleted }) => {
 
   return (
     <div
-      onClick={() => toggleCompleted(id)}
+      className="individualTask"
+      onClick={() => toggleComplete(id)}
       style={{
         textDecoration: completed ? "line-through" : "",
         color: completed ? "red" : "",

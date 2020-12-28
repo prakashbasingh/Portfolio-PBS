@@ -31,7 +31,7 @@
 }
 h1{
     grid-area: t;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 .toDos{
     grid-area: d;

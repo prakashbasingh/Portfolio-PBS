@@ -18,6 +18,7 @@ function App(state) {
           <Route
             path="/experiments"
             component={Experiments}
+            state={state}
             addTodo={state.addTodo}
             toggleComplete={state.toggleComplete}
             clearCompleted={state.clearCompleted}
