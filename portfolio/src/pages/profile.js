@@ -58,7 +58,7 @@ function Profile() {
           <li>
             Delaware Technical Community College: Medical Laboratory Science
           </li>
-          <li></li>
+          {/* <li></li> */}
         </p>
         {/* <p>Projects: </p>
         <p>Experience:</p> */}
