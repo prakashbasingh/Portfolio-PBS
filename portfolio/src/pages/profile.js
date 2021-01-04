@@ -60,8 +60,8 @@ function Profile() {
           </li>
           <li></li>
         </p>
-        <p>Projects: </p>
-        <p>Experience:</p>
+        {/* <p>Projects: </p>
+        <p>Experience:</p> */}
       </div>
     </div>
   );
