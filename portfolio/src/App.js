@@ -8,6 +8,7 @@ import Projects from "./pages/projects.js";
 import Experiments from "./pages/experiments.js";
 
 function App(state) {
+  console.log(state, "THIS IS APP>JS STATE");
   return (
     <Router>
       <div>
@@ -19,9 +20,9 @@ function App(state) {
             path="/experiments"
             component={Experiments}
             state={state}
-            addTodo={state.addTodo}
-            toggleComplete={state.toggleComplete}
-            clearCompleted={state.clearCompleted}
+            // addTodo={state.addTodo}
+            // toggleComplete={state.toggleComplete}
+            // clearCompleted={state.clearCompleted}
           />
         </Switch>
       </div>

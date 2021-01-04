@@ -2,7 +2,7 @@ import React from "react";
 
 import Todo from "./todo.js";
 
-const TodoList = ({ state, toggleCompleted }) => {
+const TodoList = ({ state, toggleComplete }) => {
   console.log(state, "SSSSSSSstate?????!!!??!?!");
   return (
     <div>
@@ -11,9 +11,9 @@ const TodoList = ({ state, toggleCompleted }) => {
           <Todo
             key={todoTask.id}
             item={todoTask.item}
-            toggleCompleted={toggleCompleted}
-            completed={todoTask.completed}
-            id={todoTask.id}
+            toggleComplete={toggleComplete}
+            clearCompleted={todoTask.clearCompleted}
+            // id={todoTask.id}
           />
         );
       })}
