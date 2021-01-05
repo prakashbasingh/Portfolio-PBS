@@ -5,6 +5,7 @@ import nasapicoftheday from "../images/nasapicoftheday.png";
 import frontEndPotluck from "../images/frontEndPotluck.png";
 import backEndPotluck from "../images/backEndPotluck.png";
 import EchoSoap from "../images/EchoSoap.png";
+import gameOfLife from "../images/gameOfLife.JPG";
 
 function Body() {
   return (
@@ -95,23 +96,28 @@ function Body() {
             </a>
           </div>
         </div>
-        {/* <div className="eachBody">
+        <div className="eachBody">
           <div className="imageAndLivePage">
-            <img className="img" src="" alt=""></img>
-            <a href="">Live Page</a>
+            <img className="img" src={gameOfLife} alt=""></img>
+            <a href="https://conway-game-of-life-by-pbs.netlify.app">
+              Live Page
+            </a>
           </div>
 
           <div className="imgText">
             <p>Intro</p>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Build with ReactJS</li>
+              <li>Class component for state management</li>
+              <li>
+                functionality such as play, pause, speed, clear grid and
+                autofill grid
+              </li>
+              <li>CSS/Styled component</li>
             </ul>
-            <a href="">GitHub</a>
+            <a href="https://github.com/prakashbasingh/game-of-life">GitHub</a>
           </div>
-        </div> */}
+        </div>
         {/* <div className="eachBody2">
           <div className="imageAndLivePage">
             <img className="img" src="" alt=""></img>
