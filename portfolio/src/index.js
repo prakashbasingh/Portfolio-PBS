@@ -10,7 +10,7 @@ import { todoReducer } from "./reducers/todoReducer.js";
 // "First", need to create a store then need to provide data to app from the store which is done by wrapping App component with <Provider>
 
 const store = createStore(todoReducer);
-// console.log(store.getStore(), "whats in th store here")
+console.log(store.getState(), "whats in th store here in index.js");
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(

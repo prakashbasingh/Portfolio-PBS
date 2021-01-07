@@ -14,6 +14,6 @@ export const toggleComplete = (id) => {
   return { type: "TOGGLE_COMPLETE", payload: id };
 };
 
-export const clearComplete = () => {
+export const clearCompleted = () => {
   return { type: "CLEAR_COMPLETED" };
 };
