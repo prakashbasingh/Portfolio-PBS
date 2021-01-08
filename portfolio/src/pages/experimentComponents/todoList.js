@@ -13,7 +13,7 @@ const TodoList = (props) => {
             item={todoTask.item}
             toggleComplete={todoTask.toggleComplete}
             clearCompleted={todoTask.clearCompleted}
-            // id={todoTask.id}
+            id={todoTask.id}
           />
         );
       })}

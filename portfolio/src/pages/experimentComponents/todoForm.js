@@ -20,7 +20,7 @@ function TodoList(props) {
       <h4>To Do List</h4>
       <div onSubmit={handleSubmit}>
         <input onChange={handleChange} type="text" name="item" value={item} />
-        <button> Add Task </button>
+        <button onClick={() => addTodo(item)}> Add Task </button>
         <button onClick={clearCompleted}>Clear Completed Task(s)</button>
       </div>
     </div>
