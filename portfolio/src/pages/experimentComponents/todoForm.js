@@ -1,8 +1,17 @@
 import React, { useState } from "react";
 
-function TodoList(props) {
+import { connect } from "react-redux";
+
+import {
+  addTodo,
+  toggleComplete,
+  clearCompleted,
+} from "../../actions/todoAction.js";
+
+function TodoForm(props) {
+  console.log(props, "props in todoForm.js");
   const [item, setItem] = useState("");
-  console.log(item, "??itemssssssss???????");
+  console.log(item, "item in todoForm");
 
   const { addTodo, clearCompleted } = props;
 
@@ -26,4 +35,21 @@ function TodoList(props) {
     </div>
   );
 }
-export default TodoList;
+
+const mapStateToProps = (state) => {
+  console.log(state, " mapStateToProps in todoForm.js");
+
+  return {
+    item: state.item,
+    completed: state.completed,
+    id: state.id,
+  };
+};
+
+export default connect(mapStateToProps, {
+  addTodo,
+  toggleComplete,
+  clearCompleted,
+})(TodoForm);
+
+// addTodo={props.addTodo} clearCompleted={props.clearCompleted}

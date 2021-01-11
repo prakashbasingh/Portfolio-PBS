@@ -2,17 +2,25 @@ import React from "react";
 
 import Todo from "./todo.js";
 
+import { connect } from "react-redux";
+
+import {
+  addTodo,
+  toggleComplete,
+  clearCompleted,
+} from "../../actions/todoAction.js";
+
 const TodoList = (props) => {
-  console.log(props, "SSSSSSSstate?????!!!??!?!");
+  console.log(props, "......props in toDoList.......");
   return (
     <div>
-      {props.todos.map((todoTask) => {
+      {props.tasks.map((todoTask) => {
         return (
           <Todo
             key={todoTask.id}
             item={todoTask.item}
             toggleComplete={todoTask.toggleComplete}
-            clearCompleted={todoTask.clearCompleted}
+            completed={todoTask.completed}
             id={todoTask.id}
           />
         );
@@ -20,4 +28,19 @@ const TodoList = (props) => {
     </div>
   );
 };
-export default TodoList;
+
+const mapStateToProps = (state) => {
+  console.log(state, " mapStateToProps in todoList.js");
+
+  return {
+    item: state.item,
+    completed: state.completed,
+    id: state.id,
+  };
+};
+
+export default connect(mapStateToProps, {
+  addTodo,
+  toggleComplete,
+  clearCompleted,
+})(TodoList);
