@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "../css/experiments.css";
+import "../../css/experiments.css";
 
-import TodoForm from "./experimentComponents/todoForm.js";
-import TodoList from "./experimentComponents/todoList.js";
+import TodoForm from "./todoForm.js";
+import TodoList from "./todoList.js";
 
 function Experiments() {
   return (

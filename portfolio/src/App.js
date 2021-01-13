@@ -1,11 +1,10 @@
 // import "../css/App2.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { connect } from "react-redux"; //it is a Higher Order Component (similar to custom hooks)
 
 import MainPage from "./pages/mainPage.js";
 import Profile from "./pages/profile.js";
 import Projects from "./pages/projects.js";
-import Experiments from "./pages/experiments.js";
+import Experiments from "./pages/experiments/experiments.js";
 
 function App() {
   return (
