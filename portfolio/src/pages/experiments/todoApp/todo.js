@@ -1,6 +1,7 @@
 import React from "react";
 
 function Todo({ item, id, toggleCompleted, completed }) {
+  console.log(item, " this is in todo.js");
   return (
     <div
       onClick={() => toggleCompleted(id)}

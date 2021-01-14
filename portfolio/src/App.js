@@ -5,7 +5,7 @@ import MainPage from "./pages/mainPage.js";
 import Profile from "./pages/profile.js";
 import Projects from "./pages/projects.js";
 import Experiments from "./pages/experiments/experiments.js";
-
+import TodoApp from "./pages/experiments/todoApp/todoApp.js";
 function App() {
   return (
     <Router>
@@ -15,6 +15,7 @@ function App() {
           <Route path="/profile" component={Profile} />
           <Route path="/projects" component={Projects} />
           <Route path="/experiments" component={Experiments} />
+          <Route path="/todoApp" component={TodoApp} />
         </Switch>
       </div>
     </Router>

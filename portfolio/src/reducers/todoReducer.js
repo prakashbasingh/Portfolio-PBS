@@ -1,16 +1,19 @@
 export const initialState = {
-  tasks: {
-    todo: "build redux app",
-    completed: false,
-    id: Date.now(),
-  },
+  tasks: [
+    {
+      item: "build redux app",
+      completed: false,
+      id: Date.now(),
+    },
+  ],
 };
 
 export const todoReducer = (state = initialState, action) => {
   switch (action.type) {
     case "ADD_TODO":
+      console.log(state, "this is in reducer addTodo case");
       const newTodo = {
-        todo: action.payload,
+        item: action.payload,
         completed: false,
         id: Date.now(),
       };
@@ -20,6 +23,7 @@ export const todoReducer = (state = initialState, action) => {
       };
 
     case "TOGGLE_COMPLETED":
+      console.log(state, "this is in reducer toggleComplete case");
       return {
         ...state,
         tasks: state.tasks.map((todoTask) => {
