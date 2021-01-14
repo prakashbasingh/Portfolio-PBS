@@ -1,39 +1,37 @@
 .mainDiv {
     height: 100%;
-    width: 95%;
-    margin: auto;
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(80%, minmax(100px, 1fr));
-    grid-auto-rows: 100px;
-    grid-template-areas:
-        "t t t t t t t t t t t t "
-        "d d d d d d d d d d d d "
-        "d d d d d d d d d d d d "
-        "d d d d d d d d d d d d "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-        "p p p p p p p p p p p p "
-
-
+    width: 90%;
+    margin: 20px auto;
+    /* border: 1px solid red; */
 }
-h1{
-    grid-area: t;
+.title{
+    margin : 20px auto;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+.applications{
+    margin-top: 4rem;
+}
+.todoApp{
     /* border: 1px solid gray; */
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    box-shadow: -5px -5px 15px 5px orangered, 5px 5px 15px 5px gold;
+    background: palegreen;
 }
-.toDos{
-    grid-area: d;
+.todoApp:hover{
+    box-shadow: -5px -5px 15px 5px gold, 5px 5px 15px 5px orangered;
+}
+.todoApp a{
+    text-decoration: none;
+    font-weight: bolder;
+    color:darkmagenta; 
+}
+/* .toDos{
     border: 1px solid gray;
-}
+} */

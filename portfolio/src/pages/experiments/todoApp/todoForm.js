@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { connect } from "react-redux";
 
 import { addTodo, clearCompleted } from "../../../actions/todoAction.js";
+import "../../../css/todoForm.css";
 
 function TodoForm(props) {
   console.log(props, "props in TODOFORM ");
@@ -20,9 +21,9 @@ function TodoForm(props) {
   //   };
 
   return (
-    <div>
+    <div className="todoForm">
       <h1> its todo Form </h1>
-      <div>
+      <div className="todoForm2">
         <input onChange={handleChange} type="text" name="item" value={item} />
         <button onClick={() => props.addTodo(item)}>ADD TODO</button>
         <button onClick={props.clearCompleted}>Clear Completed Todos</button>

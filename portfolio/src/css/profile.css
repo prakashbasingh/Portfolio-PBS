@@ -42,12 +42,7 @@
         flex-direction: column;
         justify-content: space-between;
     }
-    /* .profilePopUp .title .links a .fa{
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        font-size:1.5rem;
-    } */
+ 
     .pro{
         display: none;
     }
