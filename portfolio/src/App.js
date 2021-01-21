@@ -6,6 +6,9 @@ import Profile from "./pages/profile.js";
 import Projects from "./pages/projects.js";
 import Experiments from "./pages/experiments/experiments.js";
 import TodoApp from "./pages/experiments/todoApp/todoApp.js";
+import MovieApp from "./pages/experiments/movieApp/movieApp.js";
+import NasaPicOfTheDay from "./pages/experiments/nasaPicOfTheDay/nasaPicOfTheDay.js";
+
 function App() {
   return (
     <Router>
@@ -16,6 +19,8 @@ function App() {
           <Route path="/projects" component={Projects} />
           <Route path="/experiments" component={Experiments} />
           <Route path="/todoApp" component={TodoApp} />
+          <Route path="/movieApp" component={MovieApp} />
+          <Route path="/nasaPicOfTheDay" component={NasaPicOfTheDay} />
         </Switch>
       </div>
     </Router>

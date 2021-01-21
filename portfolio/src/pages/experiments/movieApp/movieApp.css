@@ -1,0 +1,93 @@
+.movieApp {
+  height: 100%;
+  background-color: gray;
+  color:rgb(47, 48, 49);
+}
+body{
+   backGround: rgb(47, 48, 49);
+}
+.headerImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 5rem;
+}
+
+.titleBar{
+  backGround: rgb(47, 48, 49);
+  display: block;
+  color: rgb(255, 4, 4);
+  padding-left: 20px;
+}
+.td{
+  width: 20px;
+}
+.titleText{
+  text-shadow: 3px 3px #5900ff;
+}
+
+
+.movieDiv{
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  display: flex;
+}
+.movieDiv2{
+  width: 70%;
+  /* border: 1px solid green; */
+  height: 500px;
+}
+.movieCont{
+  border: 2px solid gray;
+ 
+}
+.movieCard{
+
+}
+.nominationList{
+  width: 30%;
+    font-size: 14px;
+
+  /* border: 1px solid red; */
+}
+.movie-app > .row{
+  height: 370px;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  border: 1px solid orangered;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 5px orangered;
+}
+
+#nominated{
+  height: 350px;
+  margin: 5px;
+  border-radius: 1rem;
+
+   /* border: 1px solid red; */
+   box-shadow: inset 0 0 10px
+}
+.movPoster{
+  border-radius: 1rem;;
+}
+h6{
+  font-size: 12px;;
+}
+.card{
+  margin: 5px;
+  border: 2px solid gray;
+  box-shadow: inset 0 0 10px
+}
+.btn-danger{
+  width: 80px;
+  height:30px;
+
+}
+
+.button{
+background: green;
+width: 90px;
+  height:30px;
+  margin-bottom: 20px;
+}
+

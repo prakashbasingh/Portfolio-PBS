@@ -9,7 +9,10 @@ function Experiments() {
   return (
     <div className="mainDiv">
       <h1>Building ToDo List</h1>
-      <a href="/experiments"> X </a>
+      <a href="/experiments" style={{ textDecoration: "none" }}>
+        {" "}
+        ← Go Back{" "}
+      </a>
       <TodoForm />
       <TodoList />
     </div>

@@ -46,8 +46,14 @@ function Experiments() {
           <h1>This is Experiment Page</h1>
         </div>
         <div className="applications">
-          <div className="todoApp">
+          <div className="eachApp">
             <a href="/todoApp">The Todo App</a>
+          </div>
+          <div className="eachApp">
+            <a href="/movieApp">The Movie App </a>
+          </div>
+          <div className="eachApp">
+            <a href="/nasaPicOfTheDay">Nasa Picture of the Day </a>
           </div>
         </div>
       </div>
