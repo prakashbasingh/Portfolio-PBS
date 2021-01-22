@@ -53,15 +53,12 @@ p{
     border: 1px solid gray;
     box-shadow: 0 0 15px 0px gray;
     width: 60%;
-    height: 60%;
+    height: 65%;
     transform: scale(1.2);
-    font-size: 1.4rem;
     padding:1.5rem;
 
 }
-/* .intro:hover p{
 
-} */
 /* Media Queries */
 @media only screen and (max-width: 1500px){
 

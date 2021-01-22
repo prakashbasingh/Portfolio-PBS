@@ -37,18 +37,16 @@
     object-fit: cover;
 } */
 .title:hover{
-    /* border-bottom: 1px solid orange; */
    border-bottom-right-radius: 5rem;
    border-top-left-radius: 5rem;
    box-shadow: 0 0 15px 0px gold;
-   /* transition: all 2s ease-in-out; */
+   transition: all 2s ease-in-out;
    
 }
 .title > .links {
     /* border: 1px solid gold; */
     position: relative;
     display: flex;
-    /* border: 1px solid gray; */
     animation: 2s ease-out 0s 1 mymove;
     
 }
@@ -63,17 +61,11 @@
 }
 .title > .links > a > .fa{
     margin: 20px;
-    width: 40px;
-    height: 40px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 50px;
-    background: gray;
-    border: 1px solid black;
-    text-align: center;
-    line-height: 40px;
     color: #fff;
     font-size: 2rem;
-    transition: all 800ms ease-in-out;
+    transition: all 500ms ease-in-out;
 
 }
 .title > .links > .box > p{

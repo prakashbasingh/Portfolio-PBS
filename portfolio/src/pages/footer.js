@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/App2.css";
 import "../css/footer.css";
 
 function Footer() {
@@ -11,18 +10,6 @@ function Footer() {
         <p>Phone No: 916-281-1576</p>
       </div>
       <div className="links">
-        {/* <a className="box" id="profile" href="">
-          <div class="fa fa-user-circle"></div>
-          <p className="ppp profile">Profile</p>
-        </a>
-        <a
-          className="box"
-          id="projectLink"
-          href="https://prakashbasingh.github.io/portfolio-website/"
-        >
-          <div class="fa fa-tasks"></div>
-          <p className="ppp project">Projects</p> 
-        </a>*/}
         <a className="box" id="gitHub" href="https://github.com/prakashbasingh">
           <div class="fa fa-github"></div>
           <p className="ppp github">GitHub</p>

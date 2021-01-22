@@ -2,6 +2,7 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 
 .footer{
+    height:100%;
     grid-area: f;
     /* border: 1px solid gray; */
     margin: 4px;
@@ -23,18 +24,16 @@
     justify-content: center;
 }
 .footer > .links > a > div{
-    margin: 0 25px 20px 20px;
-    width: 30px;
-    padding: 5px;
+        margin: 20px;
+    padding: 10px;
     border-radius: 50px;
-    background: gray;
-    text-align: center;
-    line-height: 30px;
     color: #fff;
-    transition: all 800ms ease-in-out;
+    font-size: 2rem;
+    transition: all 500ms ease-in-out;
 
 }
 .footer > .links > a > .ppp{
+    margin: 0;
     background: black;
     color: #fff;
     width: 120px;
@@ -48,17 +47,9 @@
 }
 .footer > .links > a:hover .ppp{
     display: block;
+   
 }
-.footer .links a:hover .profile{
-    border: 2px solid orange;
-    box-shadow: 0 0 25px 10px orange;
-    color: orange;
-}
-.footer .links a:hover .project{
-    border: 2px solid limegreen;
-    box-shadow: 0 0 20px 10px limegreen;
-    color: limegreen;
-}
+
 .footer .links a:hover .github{
     border: 2px solid gray;
     box-shadow: 0 0 20px 10px gray;
@@ -115,27 +106,6 @@
     transform: scale(1.2);
 }
 
-.footer > .links > a > div.fa-user-circle{
-    background: orange; 
-}
-.footer > .links > a > div.fa-user-circle:hover {
-    color: orange;
-    background: #fff;
-    border: 1px solid orange;
-    box-shadow: 0 0 15px 6px orange;
-    transform: scale(1.2);
-}
-
-.footer > .links > a > div.fa-tasks{
-    background: limegreen; 
-}
-.footer > .links > a > div.fa-tasks:hover {
-    color: limegreen;
-    background: #fff;
-    border: 1px solid limegreen;
-    box-shadow: 0 0 15px 6px limegreen;
-    transform: scale(1.2);
-}
 @media only screen and (max-width: 900px){
     .footer{
     margin: 2%;
