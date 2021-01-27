@@ -2,8 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../../css/experiments.css";
 
-import TodoApp from "./todoApp/todoApp.js";
-
 function Experiments() {
   return (
     <Router>
@@ -54,6 +52,9 @@ function Experiments() {
           </div>
           <div className="eachApp">
             <a href="/nasaPicOfTheDay">Nasa Picture of the Day </a>
+          </div>
+          <div className="eachApp">
+            <a href="">More Coming ......</a>
           </div>
         </div>
       </div>

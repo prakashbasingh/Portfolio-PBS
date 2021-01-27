@@ -92,5 +92,3 @@ const mapStateToProps = (state) => {
   };
 };
 export default connect(mapStateToProps, { fetchNasaPics })(NasaPicOfTheDay);
-
-// note what does it mean prop.nasaPic.map is not a function error. need to ask this question//
