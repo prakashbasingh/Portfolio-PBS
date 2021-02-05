@@ -1,5 +1,4 @@
 import React from "react";
-// import "../css/App2.css";
 import "../css/project.css";
 import nasapicoftheday from "../images/nasapicoftheday.png";
 import frontEndPotluck from "../images/frontEndPotluck.png";

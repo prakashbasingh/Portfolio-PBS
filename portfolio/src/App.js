@@ -12,7 +12,7 @@ import NasaPicOfTheDay from "./pages/experiments/nasaPicOfTheDay/nasaPicOfTheDay
 function App() {
   return (
     <Router>
-      <div>
+      <div className="appComponent">
         <Switch>
           <Route path="/" exact component={MainPage} />
           <Route path="/profile" component={Profile} />

@@ -2,10 +2,9 @@
 .profilePopUp{
     /* width:auto; */
     height: 100%;
-    border: 1px solid red;
-    box-shadow: 0 0 15px 6px brown;
+    /* border: 1px solid red; */
+    /* box-shadow: 0 0 15px 6px brown; */
     border-radius: 2rem;
-    margin: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +16,7 @@
     padding: 0;
 } */
 .title{
-    padding: 5%;
+    padding: 2%;
 }
 
 .profileInfo{

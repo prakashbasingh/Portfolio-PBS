@@ -6,6 +6,7 @@
 .nav {
     grid-area: n;
     /* border: 1px solid gray; */
+    background: rgba(0, 0, 0, 0.4);
     width: 50%;
     margin: 2%;
     transition: 0.5s;

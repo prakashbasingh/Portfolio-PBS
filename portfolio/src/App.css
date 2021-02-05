@@ -3,20 +3,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@600&display=swap');
 
-/* html{
-background-image: "https://apod.nasa.gov/apod/image/1611/PacmanCrawfordNew2048.jpg";
-} */
+html{
+
+background-color: #f8c703;
+}
 
 
 body {
-    /* background-color: #ffeead; */
-    /* margin: 10px; */
-    /* background: green; */
-    /* border-top: 5px solid red; */
+    margin: 2%;
+    background-color: #ffeead;
+    box-shadow: 0 0 15px 20px black;    
+    background: green;
     color: white;
     
 }
+.appComponent{
+    background: rgb(45, 156, 151);
+    background-image: url("https://apod.nasa.gov/apod/image/1611/PacmanCrawfordNew2048.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
 .App {
+    background-color: transparent;
     height: 100%;
     width: 80%;
     margin: auto;
@@ -25,8 +35,9 @@ body {
     grid-template-columns: repeat(80%, minmax(100px, 1fr));
     grid-auto-rows: 100px;
     grid-template-areas:
-        ". . . t t t t t t t t t t t t . . ."
-        ". . . t t t t t t t t t t t t . . ."
+        "t t t t t t t t t t t t t t t t t t"
+        "t t t t t t t t t t t t t t t t t t"
+        "t t t t t t t t t t t t t t t t t t"
         ". . . h h h h h h h h h h h h . . ."
         ". . . h h h h h h h h h h h h . . ."
         ". . . h h h h h h h h h h h h . . ."

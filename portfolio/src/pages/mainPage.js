@@ -1,6 +1,4 @@
 import React from "react";
-// import "../css/App2.css";
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Title from "./title.js";
 import Header from "./header.js";
@@ -14,8 +12,6 @@ import Footer from "./footer.js";
 function MainPage() {
   return (
     <div className="App">
-      {/* <Route path="/profile" component={Profile} />
-        <Route path="/projects" component={Projects} /> */}
       <Title />
       <Header />
       <NavBar />

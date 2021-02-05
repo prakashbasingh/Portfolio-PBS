@@ -12,17 +12,13 @@
 .title {
     grid-area: t;
     /* border: 1px solid gray; */
-    width: 100%;
-    padding: 2%;
-    margin-top: 5%;
-    height: 100%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* position: fixed; */
-    /* border-bottom-left-radius: 5rem;
-    border-top-right-radius: 5rem; */
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
+    border-bottom-left-radius: 2rem;
+   border-top-right-radius: 2rem;
 }
 .title div .Welcome{
     font-size: 2.5rem;
@@ -39,15 +35,15 @@
 .title:hover{
    border-bottom-right-radius: 5rem;
    border-top-left-radius: 5rem;
-   box-shadow: 0 0 15px 0px gold;
-   transition: all 2s ease-in-out;
-   
+   box-shadow: 0 0 15px 0px rgb(112, 243, 72);
+    background: rgba(0, 0, 0, 0.4);
+    color: red;
 }
 .title > .links {
     /* border: 1px solid gold; */
     position: relative;
     display: flex;
-    animation: 2s ease-out 0s 1 mymove;
+    animation: 3s ease-out 0s 1 mymove;
     
 }
 @keyframes mymove {

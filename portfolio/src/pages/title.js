@@ -35,7 +35,7 @@ function Title() {
         </a>
       </div>
       <div>
-        <h2 className="Welcome">Welcome to My Portfolio✨</h2>
+        <h3 className="Welcome">Welcome to My Portfolio✨</h3>
       </div>
     </div>
   );
