@@ -13,38 +13,18 @@ function Body() {
       <div className="allBody">
         <div className="eachBody">
           <div className="imageAndLivePage">
-            <img className="img" src={nasapicoftheday}></img>
-
-            {/* <a>Live Page</a> */}
-          </div>
-          <div className="imgText">
-            <p>Intro</p>
-            <ul>
-              <li>Build with ReactJS</li>
-              <li>Hooks for state management</li>
-              <li>
-                Displays date, picture of the day, its title & description
-              </li>
-            </ul>
-            <a href="https://github.com/prakashbasingh/nasa-photo-of-the-day/tree/Prakash-Singh">
-              GitHub
-            </a>
-          </div>
-        </div>
-        <div className="eachBody2">
-          <div className="imageAndLivePage">
             <img
               className="img"
               src={frontEndPotluck}
               alt="Potluck Planner Front-end"
             ></img>
-            <a href="">Live Page</a>
+            <a href="https://potluckplanner-by-pbs.netlify.app">Live Page</a>
           </div>
           <div className="imgText">
             <p>Intro</p>
             <ul>
               <li>ReactJS(Front-End)</li>
-              <li>Hooks for state management</li>
+              <li>React Hooks for state management</li>
               <li>Custom authentication for register and login</li>
               <li>css/styled component</li>
             </ul>
@@ -53,7 +33,7 @@ function Body() {
             </a>
           </div>
         </div>
-        <div className="eachBody">
+        <div className="eachBody2">
           <div className="imageAndLivePage">
             <img
               className="img"
@@ -76,7 +56,7 @@ function Body() {
             </a>
           </div>
         </div>
-        <div className="eachBody2">
+        <div className="eachBody">
           <div className="imageAndLivePage">
             <img className="img" src={EchoSoap} alt="EchoSoap back-end"></img>
             <a href="https://27c.ecosoap.dev/login">Live Page</a>
@@ -95,7 +75,7 @@ function Body() {
             </a>
           </div>
         </div>
-        <div className="eachBody">
+        <div className="eachBody2">
           <div className="imageAndLivePage">
             <img className="img" src={gameOfLife} alt=""></img>
             <a href="https://conway-game-of-life-by-pbs.netlify.app">
@@ -115,6 +95,26 @@ function Body() {
               <li>CSS/Styled component</li>
             </ul>
             <a href="https://github.com/prakashbasingh/game-of-life">GitHub</a>
+          </div>
+        </div>
+        <div className="eachBody">
+          <div className="imageAndLivePage">
+            <img className="img" src={nasapicoftheday}></img>
+
+            {/* <a>Live Page</a> */}
+          </div>
+          <div className="imgText">
+            <p>Intro</p>
+            <ul>
+              <li>Build with ReactJS</li>
+              <li>Hooks for state management</li>
+              <li>
+                Displays date, picture of the day, its title & description
+              </li>
+            </ul>
+            <a href="https://github.com/prakashbasingh/nasa-photo-of-the-day/tree/Prakash-Singh">
+              GitHub
+            </a>
           </div>
         </div>
         {/* <div className="eachBody2">

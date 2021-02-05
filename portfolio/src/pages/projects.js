@@ -51,31 +51,6 @@ function Body() {
       </div>
       {/* <h2>Projects</h2> */}
       <div className="projectSection">
-        <div className="eachProject">
-          <div className="imageAndLivePage">
-            <img
-              className="img"
-              src={nasapicoftheday}
-              alt="nasa photo of the day"
-            ></img>
-
-            {/* <a>Live Page</a> */}
-          </div>
-          <div className="imgText">
-            <p>Intro</p>
-            <ul>
-              <li>Build with ReactJS</li>
-              <li>Hooks for state management</li>
-              <li>
-                Displays date, picture of the day, its title & description
-              </li>
-              <li>CSS/Styled Component</li>
-            </ul>
-            <a href="https://github.com/prakashbasingh/nasa-photo-of-the-day/tree/Prakash-Singh">
-              GitHub
-            </a>
-          </div>
-        </div>
         <div className="eachProject2">
           <div className="imageAndLivePage">
             <img
@@ -160,6 +135,31 @@ function Body() {
               <li>CSS/Styled component</li>
             </ul>
             <a href="https://github.com/prakashbasingh/game-of-life">GitHub</a>
+          </div>
+        </div>
+        <div className="eachProject2">
+          <div className="imageAndLivePage">
+            <img
+              className="img"
+              src={nasapicoftheday}
+              alt="nasa photo of the day"
+            ></img>
+
+            {/* <a>Live Page</a> */}
+          </div>
+          <div className="imgText">
+            <p>Intro</p>
+            <ul>
+              <li>Build with ReactJS</li>
+              <li>Hooks for state management</li>
+              <li>
+                Displays date, picture of the day, its title & description
+              </li>
+              <li>CSS/Styled Component</li>
+            </ul>
+            <a href="https://github.com/prakashbasingh/nasa-photo-of-the-day/tree/Prakash-Singh">
+              GitHub
+            </a>
           </div>
         </div>
         {/* <div className="eachProject2">
