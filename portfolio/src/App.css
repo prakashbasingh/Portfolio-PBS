@@ -18,7 +18,7 @@ body {
     
 }
 .appComponent{
-    background: rgb(45, 156, 151);
+    background: none;
     background-image: url("https://apod.nasa.gov/apod/image/1611/PacmanCrawfordNew2048.jpg");
     background-attachment: fixed;
     background-position: center;
