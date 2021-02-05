@@ -12,6 +12,10 @@ function Experiments() {
               <div className="fa fa-home"></div>
               <p className="p1 home">Home</p>
             </a>
+            <a className="box" id="profile" href="/profile">
+              <div className="fa fa-user-circle"></div>
+              <p className="p1 profile">Profile</p>
+            </a>
             <a className="box" id="projectLink" href="/projects">
               <div className="fa fa-tasks"></div>
               <p className="p1 project">Projects</p>
@@ -36,10 +40,10 @@ function Experiments() {
               <div className="fa fa-twitter"></div>
               <p className="p1 twitter">Twitter</p>
             </a>
-            <a className="box" id="experiment" href="/experiments">
+            {/* <a className="box" id="experiment" href="/experiments">
               <div className="fa fa-flask"></div>
               <p className="p1 experiment">Experiments</p>
-            </a>
+            </a> */}
           </div>
           <h1>This is Experiment Page</h1>
         </div>

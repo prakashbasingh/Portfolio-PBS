@@ -34,7 +34,7 @@
 }
 .footer > .links > a > .ppp{
     margin: 0;
-    background: black;
+    /* background: black; */
     color: #fff;
     width: 120px;
     display: none;

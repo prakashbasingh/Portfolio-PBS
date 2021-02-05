@@ -1,12 +1,10 @@
 import React from "react";
-import "../css/App2.css";
 import "../css/profile.css";
 
 function Profile() {
   return (
     <div className="profilePopUp">
       <div className="title">
-        <h2 className="pro">Profile</h2>
         <div className="links">
           <a className="box" id="profile" href="/">
             <div className="fa fa-home"></div>
@@ -43,11 +41,14 @@ function Profile() {
         </div>
       </div>
       <div className="profileInfo">
-        <h1>Profile</h1>
-        <h3>Prakash Bahadur Singh</h3>
-        <h4>Address: 10484 Investment Circle, rancho Cordova, Ca 95670</h4>
-        <h4>Email Address: prakashbasingh162@gmail.com</h4>
-        <h4>Phone No.: 916-281-1576</h4>
+        <h1 className="pro" style={{ textAlign: "center" }}>
+          Profile
+        </h1>
+        <br />
+        <h2>Prakash Bahadur Singh</h2>
+        <h5>Address: 10484 Investment Circle, rancho Cordova, Ca 95670</h5>
+        <h5>Email Address: prakashbasingh162@gmail.com</h5>
+        <h5>Phone No.: 916-281-1576</h5>
         <p>
           Education:
           <li>Lambda School: Full Stack Web Development</li>

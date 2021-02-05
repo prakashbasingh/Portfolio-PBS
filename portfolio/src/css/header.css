@@ -6,7 +6,6 @@
     width: 100%;
     margin-bottom: 20%;
     margin-top: 5%;
-    /* background-image: url("C:/Users/Prakash/Documents/LambdaAssignment/Portfolio-PBS/portfolio/src/images/inTheWilderness.png"); */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,8 +17,6 @@
     width: 25%;
     height: 70%;
     position: relative; 
-    /* background: gray; */
-    /* background-image: url("C:/Users/Prakash/Documents/LambdaAssignment/Portfolio-PBS/portfolio/src/images/profilePic.png"); */
     border: 1px solid orange;
     box-shadow: 0 0 15px 0px gold;
     border-radius: 2rem;
@@ -45,10 +42,10 @@ h1{
 p{
     margin: 1%;
     font-size: 1.4rem;
-    transition: all 1s ease-in-out;
+    transition: all 2s ease-in;
 }
 .intro:hover {
-    background: gray;
+    background: rgb(231, 173, 96);
     color: black;
     border: 1px solid gray;
     box-shadow: 0 0 15px 0px gray;

@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/App2.css";
 import "../css/header.css";
 import profilePic from "../images/profilePic.jpg";
 

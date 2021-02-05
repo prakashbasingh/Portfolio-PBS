@@ -69,7 +69,7 @@
 
 }
 .title > .links > .box > p{
-    background: black;
+    /* background: black; */
      border: 1px solid #fff;
     color: #fff;
     width: 145px;
@@ -207,7 +207,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         position: fixed;
-        background: black;
+        /* background: black; */
         width: 90%;
         height: 10%;
         margin-top: 0;
